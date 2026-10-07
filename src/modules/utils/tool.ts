@@ -1,1 +1,28 @@
-aW1wb3J0IHR5cGUgeyBBc3Npc3RhbnRNZXNzYWdlLCBNZXNzYWdlIH0gZnJvbSAnQC90eXBlcy9pbmRleC50cycKCmV4cG9ydCBjb25zdCBjb21wbGV0ZVRvb2xDYWxscyA9IChtZXNzYWdlczogTWVzc2FnZVtdKSA9PiB7CiAgZm9yIChsZXQgaSA9IG1lc3NhZ2VzLmxlbmd0aCAtIDE7IGkgPj0gMDsgaS0tKSB7CiAgICBjb25zdCBtZXNzYWdlID0gbWVzc2FnZXNbaV0KICAgIGlmIChtZXNzYWdlLnJvbGUgPT09ICd1c2VyJykgcmV0dXJuCiAgICBpZiAobWVzc2FnZS5yb2xlICE9PSAnYXNzaXN0YW50JykgY29udGludWUKICAgIGNvbnN0IGFzc2lzdGFudE1lc3NhZ2UgPSBtZXNzYWdlIGFzIEFzc2lzdGFudE1lc3NhZ2UKICAgIGlmICghYXNzaXN0YW50TWVzc2FnZS50b29sX2NhbGxzPy5sZW5ndGgpIGNvbnRpbnVlCiAgICBjb25zdCByZXBsaWVkID0gbmV3IFNldCgKICAgICAgbWVzc2FnZXMKICAgICAgICAuc2xpY2UoaSArIDEpCiAgICAgICAgLmZpbHRlcigobWVzc2FnZSkgPT4gbWVzc2FnZS5yb2xlID09PSAndG9vbCcpCiAgICAgICAgLm1hcCgobWVzc2FnZSkgPT4gbWVzc2FnZS50b29sX2NhbGxfaWQpLAogICAgKQogICAgZm9yIChjb25zdCB0b29sQ2FsbCBvZiBhc3Npc3RhbnRNZXNzYWdlLnRvb2xfY2FsbHMhKSB7CiAgICAgIGlmICghcmVwbGllZC5oYXModG9vbENhbGwuaWQpKSB7CiAgICAgICAgbWVzc2FnZXMucHVzaCh7CiAgICAgICAgICByb2xlOiAndG9vbCcsCiAgICAgICAgICBuYW1lOiB0b29sQ2FsbC5mdW5jdGlvbi5uYW1lLAogICAgICAgICAgY29udGVudDogJ+W3peWFt+iwg+eUqOW3suiiq+WPlua2iCcsCiAgICAgICAgICB0b29sX2NhbGxfaWQ6IHRvb2xDYWxsLmlkLAogICAgICAgIH0pCiAgICAgIH0KICAgIH0KICAgIHJldHVybgogIH0KfQ==
+import type { AssistantMessage, Message } from '@/types/index.ts'
+
+export const completeToolCalls = (messages: Message[]) => {
+  for (let i = messages.length - 1; i >= 0; i--) {
+    const message = messages[i]
+    if (message.role === 'user') return
+    if (message.role !== 'assistant') continue
+    const assistantMessage = message as AssistantMessage
+    if (!assistantMessage.tool_calls?.length) continue
+    const replied = new Set(
+      messages
+        .slice(i + 1)
+        .filter((message) => message.role === 'tool')
+        .map((message) => message.tool_call_id),
+    )
+    for (const toolCall of assistantMessage.tool_calls!) {
+      if (!replied.has(toolCall.id)) {
+        messages.push({
+          role: 'tool',
+          name: toolCall.function.name,
+          content: '工具调用已被取消',
+          tool_call_id: toolCall.id,
+        })
+      }
+    }
+    return
+  }
+}

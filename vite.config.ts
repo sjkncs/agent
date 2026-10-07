@@ -1,1 +1,19 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7CiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgJ0AnOiAnL3NyYycsCiAgICB9LAogIH0sCiAgYnVpbGQ6IHsKICAgIGxpYjogewogICAgICBlbnRyeTogJy4vc3JjL2luZGV4LnRzJywKICAgICAgZmlsZU5hbWU6ICgpID0+IGBhZ2VudC5qc2AsCiAgICAgIGZvcm1hdHM6IFsnZXMnXSwKICAgIH0sCiAgICByb2xsdXBPcHRpb25zOiB7CiAgICAgIGV4dGVybmFsOiBbJ29wZW5haScsICdvcGVuYWkvKionXSwKICAgIH0sCiAgfSwKfSk=
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
+  build: {
+    lib: {
+      entry: './src/index.ts',
+      fileName: () => `agent.js`,
+      formats: ['es'],
+    },
+    rollupOptions: {
+      external: ['openai', 'openai/**'],
+    },
+  },
+})

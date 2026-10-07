@@ -1,1 +1,215 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCmltcG9ydCB0eXBlIE9wZW5BSSBmcm9tICdvcGVuYWknCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7CiAgY29udGVudENodW5rLAogIGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudCwKICBmaW5pc2hDaHVuaywKICB0b29sQ2FsbENodW5rLAogIHVzYWdlQ2h1bmssCn0gZnJvbSAnLi9zZXJ2aWNlcy9tb2NrLnRzJwppbXBvcnQgeyB0b29scyB9IGZyb20gJy4vc2VydmljZXMvdG9vbC50cycKCmNvbnN0IHRvb2xDYWxsID0gKGlkOiBzdHJpbmcpID0+ICh7CiAgaWQsCiAgdHlwZTogJ2Z1bmN0aW9uJyBhcyBjb25zdCwKICBmdW5jdGlvbjogeyBuYW1lOiAnZ2V0X3dlYXRoZXInLCBhcmd1bWVudHM6ICd7ImNpdHkiOiLljJfkuqwifScgfSwKfSkKCmNvbnN0IGNyZWF0ZUludGVycnVwdE1vY2tDbGllbnQgPSAoY2h1bmtzOiBhbnlbXSwgc3RvcEFmdGVyOiBudW1iZXIpID0+IHsKICBsZXQgbWFuYWdlcjogUmV0dXJuVHlwZTx0eXBlb2YgY3JlYXRlTWFuYWdlcj4KICBjb25zdCBjbGllbnQgPSB7CiAgICBjaGF0OiB7CiAgICAgIGNvbXBsZXRpb25zOiB7CiAgICAgICAgY3JlYXRlOiBhc3luYyAoKSA9PiAoewogICAgICAgICAgW1N5bWJvbC5hc3luY0l0ZXJhdG9yXTogYXN5bmMgZnVuY3Rpb24qICgpIHsKICAgICAgICAgICAgZm9yIChjb25zdCBbaSwgY2h1bmtdIG9mIGNodW5rcy5lbnRyaWVzKCkpIHsKICAgICAgICAgICAgICB5aWVsZCBjaHVuawogICAgICAgICAgICAgIGlmIChpID09PSBzdG9wQWZ0ZXIpIG1hbmFnZXIuc3RvcCgpCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgfSksCiAgICAgIH0sCiAgICB9LAogIH0gYXMgdW5rbm93biBhcyBPcGVuQUkKICByZXR1cm4gewogICAgY2xpZW50LAogICAgYXR0YWNoOiAobTogUmV0dXJuVHlwZTx0eXBlb2YgY3JlYXRlTWFuYWdlcj4pID0+IChtYW5hZ2VyID0gbSksCiAgfQp9Cgphd2FpdCBydW5UZXN0KCfmrovnlZnmnKrlm57loavnmoTlt6XlhbfosIPnlKjlupTlnKggc3RhcnQg5pe26KGl6b2QJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IHsgY2xpZW50LCByZXF1ZXN0cyB9ID0gY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50KFtbY29udGVudENodW5rKCflpb0nKSwgdXNhZ2VDaHVuaygxMCldXSkKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICfljJfkuqzlpKnmsJQnIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ2Fzc2lzdGFudCcsIHRvb2xfY2FsbHM6IFt0b29sQ2FsbCgnYzEnKV0gfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5kZWVwRXF1YWwocmVxdWVzdHNbMF0ubWVzc2FnZXNbMl0sIHsKICAgIHJvbGU6ICd0b29sJywKICAgIG5hbWU6ICdnZXRfd2VhdGhlcicsCiAgICBjb250ZW50OiAn5bel5YW36LCD55So5bey6KKr5Y+W5raIJywKICAgIHRvb2xfY2FsbF9pZDogJ2MxJywKICB9KQp9KQoKYXdhaXQgcnVuVGVzdCgn6YOo5YiG5Zue5aGr5pe25bqU5ZyoIHN0YXJ0IOaXtuihpeasoOe8uueahCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCwgcmVxdWVzdHMgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygn5aW9JyksIHVzYWdlQ2h1bmsoMTApXV0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YyX5Lqs5aSp5rCUJyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCB0b29sX2NhbGxzOiBbdG9vbENhbGwoJ2MxJyksIHRvb2xDYWxsKCdjMicpXSB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7CiAgICByb2xlOiAndG9vbCcsCiAgICBuYW1lOiAnZ2V0X3dlYXRoZXInLAogICAgY29udGVudDogJ+aXp+e7k+aenCcsCiAgICB0b29sX2NhbGxfaWQ6ICdjMScsCiAgfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGNvbnN0IHNlbnQgPSByZXF1ZXN0c1swXS5tZXNzYWdlcwogIGFzc2VydC5lcXVhbChzZW50WzJdLnRvb2xfY2FsbF9pZCwgJ2MxJykKICBhc3NlcnQuZXF1YWwoc2VudFsyXS5jb250ZW50LCAn5pen57uT5p6cJywgJ+W3suWbnuWhq+eahOW6lOS/neaMgeWOn+agtycpCiAgYXNzZXJ0LmRlZXBFcXVhbChzZW50WzNdLCB7CiAgICByb2xlOiAndG9vbCcsCiAgICBuYW1lOiAnZ2V0X3dlYXRoZXInLAogICAgY29udGVudDogJ+W3peWFt+iwg+eUqOW3suiiq+WPlua2iCcsCiAgICB0b29sX2NhbGxfaWQ6ICdjMicsCiAgfSkKfSkKCmF3YWl0IHJ1blRlc3QoJ+W3suWujOaVtOWbnuWhq+aXtuS4jeW6lOmineWkluihpem9kCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCwgcmVxdWVzdHMgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygn5aW9JyksIHVzYWdlQ2h1bmsoMTApXV0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YyX5Lqs5aSp5rCUJyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCB0b29sX2NhbGxzOiBbdG9vbENhbGwoJ2MxJyldIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsKICAgIHJvbGU6ICd0b29sJywKICAgIG5hbWU6ICdnZXRfd2VhdGhlcicsCiAgICBjb250ZW50OiAn5pen57uT5p6cJywKICAgIHRvb2xfY2FsbF9pZDogJ2MxJywKICB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKHJlcXVlc3RzWzBdLm1lc3NhZ2VzLmZpbHRlcigobTogYW55KSA9PiBtLnJvbGUgPT09ICd0b29sJykubGVuZ3RoLCAxLCAn5LiN5bqU6YeN5aSN6KGl6b2QJykKfSkKCmF3YWl0IHJ1blRlc3QoJ+WkmuasoSBzdGFydCDkuI3lupTph43lpI3ooaXpvZAnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQsIHJlcXVlc3RzIH0gPSBjcmVhdGVTZXF1ZW5jZU1vY2tDbGllbnQoWwogICAgW2NvbnRlbnRDaHVuaygn56ys5LiA5qyhJyksIHVzYWdlQ2h1bmsoMTApXSwKICAgIFtjb250ZW50Q2h1bmsoJ+esrOS6jOasoScpLCB1c2FnZUNodW5rKDIwKV0sCiAgXSkKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICfljJfkuqzlpKnmsJQnIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ2Fzc2lzdGFudCcsIHRvb2xfY2FsbHM6IFt0b29sQ2FsbCgnYzEnKV0gfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5lcXVhbCgKICAgIHJlcXVlc3RzWzFdLm1lc3NhZ2VzLmZpbHRlcigobTogYW55KSA9PiBtLnJvbGUgPT09ICd0b29sJykubGVuZ3RoLAogICAgMSwKICAgICfnrKzkuozmrKEgc3RhcnQg5LiN5bqU6YeN5aSN6KGl6b2QJywKICApCn0pCgphd2FpdCBydW5UZXN0KCflpJrlt6XlhbfmiafooYzkuK3pgJQgc3RvcCDlkI7ph43mlrAgc3RhcnQg5bqU6IO957un57utJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IHsgY2xpZW50LCByZXF1ZXN0cyB9ID0gY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50KFsKICAgIFsKICAgICAgdG9vbENhbGxDaHVuaygnZ2V0X3dlYXRoZXInLCAneyJjaXR5Ijoi5YyX5LqsIn0nLCAwKSwKICAgICAgdG9vbENhbGxDaHVuaygnZ2V0X3dlYXRoZXInLCAneyJjaXR5Ijoi5LiK5rW3In0nLCAxKSwKICAgICAgdXNhZ2VDaHVuaygzMCksCiAgICBdLAogICAgW2NvbnRlbnRDaHVuaygn5pm0JyksIHVzYWdlQ2h1bmsoNDApXSwKICBdKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WMl+S6rOS4iua1t+WkqeawlCcgfSkKCiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IHsKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX2VuZCcpIG1hbmFnZXIuc3RvcCgpCiAgfQogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQogIG1hbmFnZXIub25FdmVudCA9IHVuZGVmaW5lZAoKICBhc3NlcnQuZXF1YWwoCiAgICBtYW5hZ2VyLm1lc3NhZ2VzLmZpbHRlcigobSkgPT4gbS5yb2xlID09PSAndG9vbCcpLmxlbmd0aCwKICAgIDIsCiAgICAn5ZCM5LiA5om55bel5YW35Lya5bm26KGM5omn6KGM5a6M77yMc3RvcCDkuI3mi6bmiKrlt7LlkK/liqjnmoQnLAogICkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGNvbnN0IHNlbnQgPSByZXF1ZXN0c1sxXS5tZXNzYWdlcwogIGZvciAoY29uc3QgW2ksIG1lc3NhZ2VdIG9mIHNlbnQuZW50cmllcygpKSB7CiAgICBpZiAobWVzc2FnZS5yb2xlICE9PSAnYXNzaXN0YW50JyB8fCAhbWVzc2FnZS50b29sX2NhbGxzPy5sZW5ndGgpIGNvbnRpbnVlCiAgICBmb3IgKGNvbnN0IGNhbGwgb2YgbWVzc2FnZS50b29sX2NhbGxzKSB7CiAgICAgIGFzc2VydC5vaygKICAgICAgICBzZW50LnNsaWNlKGkgKyAxKS5zb21lKChtOiBhbnkpID0+IG0ucm9sZSA9PT0gJ3Rvb2wnICYmIG0udG9vbF9jYWxsX2lkID09PSBjYWxsLmlkKSwKICAgICAgICBgdG9vbF9jYWxsICR7Y2FsbC5pZH0g5bqU5pyJ5Zue5aGrYCwKICAgICAgKQogICAgfQogIH0KICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlc1ttYW5hZ2VyLm1lc3NhZ2VzLmxlbmd0aCAtIDFdLmNvbnRlbnQsICfmmbQnKQp9KQoKYXdhaXQgcnVuVGVzdCgndG9vbF9jYWxscyDmnKrnlJ/miJDlrozml7bkuK3mlq3vvIzkuI3lupTlhpnlhaUgbWVzc2FnZXMnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQsIGF0dGFjaCB9ID0gY3JlYXRlSW50ZXJydXB0TW9ja0NsaWVudCgKICAgIFt0b29sQ2FsbENodW5rKCdnZXRfd2VhdGhlcicsICd7ImNpdHkiOiLljJcnKSwgdXNhZ2VDaHVuaygxMCldLAogICAgMCwKICApCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIGF0dGFjaChtYW5hZ2VyKQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YyX5Lqs5aSp5rCUJyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAxLCAn5Y2K5oiqIHRvb2xfY2FsbHMg5LiN5bqU5YaZ5YWlJykKfSkKCmF3YWl0IHJ1blRlc3QoJ3Rvb2xfY2FsbHMg55Sf5oiQ5a6M5L2G5pyq5omn6KGM5pe25Lit5pat77yM6YeN5ZCv5bqU6KGl6b2QJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IHsgY2xpZW50LCBhdHRhY2ggfSA9IGNyZWF0ZUludGVycnVwdE1vY2tDbGllbnQoCiAgICBbdG9vbENhbGxDaHVuaygnZ2V0X3dlYXRoZXInLCAneyJjaXR5Ijoi5YyX5LqsIn0nKSwgZmluaXNoQ2h1bmsoJ3Rvb2xfY2FsbHMnKSwgdXNhZ2VDaHVuaygxMCldLAogICAgMiwKICApCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIGF0dGFjaChtYW5hZ2VyKQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YyX5Lqs5aSp5rCUJyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAyLCAn5a6M5pW0IHRvb2xfY2FsbHMg5bqU5YaZ5YWlJykKICBhc3NlcnQub2sobWFuYWdlci5tZXNzYWdlc1sxXS50b29sX2NhbGxzKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzLmZpbHRlcigobSkgPT4gbS5yb2xlID09PSAndG9vbCcpLmxlbmd0aCwgMCwgJ+W3peWFt+W6lOacquaJp+ihjCcpCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlcy5maWx0ZXIoKG0pID0+IG0ucm9sZSA9PT0gJ3Rvb2wnKS5sZW5ndGgsIDEsICfph43lkK/ml7blupTooaXpvZDlt6XlhbfosIPnlKgnKQp9KQoKYXdhaXQgcnVuVGVzdCgn5Y2K5oiqIHRvb2xfY2FsbHMg5LiU5pyJ5paH5pys5pe277yM5bqU5L+d55WZ5paH5pys5bm25Lii5byDIHRvb2xfY2FsbHMnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQsIGF0dGFjaCB9ID0gY3JlYXRlSW50ZXJydXB0TW9ja0NsaWVudCgKICAgIFtjb250ZW50Q2h1bmsoJ+aIkeadpeafpScpLCB0b29sQ2FsbENodW5rKCdnZXRfd2VhdGhlcicsICd7ImNpdHkiOiLljJcnKSwgdXNhZ2VDaHVuaygxMCldLAogICAgMSwKICApCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIGF0dGFjaChtYW5hZ2VyKQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YyX5Lqs5aSp5rCUJyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAyLCAn5bqU5Y+q5YaZ5YWl5paH5pysJykKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlc1sxXS5jb250ZW50LCAn5oiR5p2l5p+lJykKICBhc3NlcnQub2soIW1hbmFnZXIubWVzc2FnZXNbMV0udG9vbF9jYWxscywgJ+WNiuaIqiB0b29sX2NhbGxzIOW6lOS4ouW8gycpCn0p
+import assert from 'node:assert/strict'
+import type OpenAI from 'openai'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import {
+  contentChunk,
+  createSequenceMockClient,
+  finishChunk,
+  toolCallChunk,
+  usageChunk,
+} from './services/mock.ts'
+import { tools } from './services/tool.ts'
+
+const toolCall = (id: string) => ({
+  id,
+  type: 'function' as const,
+  function: { name: 'get_weather', arguments: '{"city":"北京"}' },
+})
+
+const createInterruptMockClient = (chunks: any[], stopAfter: number) => {
+  let manager: ReturnType<typeof createManager>
+  const client = {
+    chat: {
+      completions: {
+        create: async () => ({
+          [Symbol.asyncIterator]: async function* () {
+            for (const [i, chunk] of chunks.entries()) {
+              yield chunk
+              if (i === stopAfter) manager.stop()
+            }
+          },
+        }),
+      },
+    },
+  } as unknown as OpenAI
+  return {
+    client,
+    attach: (m: ReturnType<typeof createManager>) => (manager = m),
+  }
+}
+
+await runTest('残留未回填的工具调用应在 start 时补齐', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('好'), usageChunk(10)]])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+  manager.messages.push({ role: 'assistant', tool_calls: [toolCall('c1')] })
+
+  await manager.start()
+
+  assert.deepEqual(requests[0].messages[2], {
+    role: 'tool',
+    name: 'get_weather',
+    content: '工具调用已被取消',
+    tool_call_id: 'c1',
+  })
+})
+
+await runTest('部分回填时应在 start 时补欠缺的', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('好'), usageChunk(10)]])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+  manager.messages.push({ role: 'assistant', tool_calls: [toolCall('c1'), toolCall('c2')] })
+  manager.messages.push({
+    role: 'tool',
+    name: 'get_weather',
+    content: '旧结果',
+    tool_call_id: 'c1',
+  })
+
+  await manager.start()
+
+  const sent = requests[0].messages
+  assert.equal(sent[2].tool_call_id, 'c1')
+  assert.equal(sent[2].content, '旧结果', '已回填的应保持原样')
+  assert.deepEqual(sent[3], {
+    role: 'tool',
+    name: 'get_weather',
+    content: '工具调用已被取消',
+    tool_call_id: 'c2',
+  })
+})
+
+await runTest('已完整回填时不应额外补齐', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('好'), usageChunk(10)]])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+  manager.messages.push({ role: 'assistant', tool_calls: [toolCall('c1')] })
+  manager.messages.push({
+    role: 'tool',
+    name: 'get_weather',
+    content: '旧结果',
+    tool_call_id: 'c1',
+  })
+
+  await manager.start()
+
+  assert.equal(requests[0].messages.filter((m: any) => m.role === 'tool').length, 1, '不应重复补齐')
+})
+
+await runTest('多次 start 不应重复补齐', async () => {
+  const { client, requests } = createSequenceMockClient([
+    [contentChunk('第一次'), usageChunk(10)],
+    [contentChunk('第二次'), usageChunk(20)],
+  ])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+  manager.messages.push({ role: 'assistant', tool_calls: [toolCall('c1')] })
+
+  await manager.start()
+  await manager.start()
+
+  assert.equal(
+    requests[1].messages.filter((m: any) => m.role === 'tool').length,
+    1,
+    '第二次 start 不应重复补齐',
+  )
+})
+
+await runTest('多工具执行中途 stop 后重新 start 应能继续', async () => {
+  const { client, requests } = createSequenceMockClient([
+    [
+      toolCallChunk('get_weather', '{"city":"北京"}', 0),
+      toolCallChunk('get_weather', '{"city":"上海"}', 1),
+      usageChunk(30),
+    ],
+    [contentChunk('晴'), usageChunk(40)],
+  ])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京上海天气' })
+
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_end') manager.stop()
+  }
+  await manager.start()
+  manager.onEvent = undefined
+
+  assert.equal(
+    manager.messages.filter((m) => m.role === 'tool').length,
+    2,
+    '同一批工具会并行执行完，stop 不拦截已启动的',
+  )
+
+  await manager.start()
+
+  const sent = requests[1].messages
+  for (const [i, message] of sent.entries()) {
+    if (message.role !== 'assistant' || !message.tool_calls?.length) continue
+    for (const call of message.tool_calls) {
+      assert.ok(
+        sent.slice(i + 1).some((m: any) => m.role === 'tool' && m.tool_call_id === call.id),
+        `tool_call ${call.id} 应有回填`,
+      )
+    }
+  }
+  assert.equal(manager.messages[manager.messages.length - 1].content, '晴')
+})
+
+await runTest('tool_calls 未生成完时中断，不应写入 messages', async () => {
+  const { client, attach } = createInterruptMockClient(
+    [toolCallChunk('get_weather', '{"city":"北'), usageChunk(10)],
+    0,
+  )
+  const manager = createManager(client)
+  attach(manager)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 1, '半截 tool_calls 不应写入')
+})
+
+await runTest('tool_calls 生成完但未执行时中断，重启应补齐', async () => {
+  const { client, attach } = createInterruptMockClient(
+    [toolCallChunk('get_weather', '{"city":"北京"}'), finishChunk('tool_calls'), usageChunk(10)],
+    2,
+  )
+  const manager = createManager(client)
+  attach(manager)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 2, '完整 tool_calls 应写入')
+  assert.ok(manager.messages[1].tool_calls)
+  assert.equal(manager.messages.filter((m) => m.role === 'tool').length, 0, '工具应未执行')
+
+  await manager.start()
+
+  assert.equal(manager.messages.filter((m) => m.role === 'tool').length, 1, '重启时应补齐工具调用')
+})
+
+await runTest('半截 tool_calls 且有文本时，应保留文本并丢弃 tool_calls', async () => {
+  const { client, attach } = createInterruptMockClient(
+    [contentChunk('我来查'), toolCallChunk('get_weather', '{"city":"北'), usageChunk(10)],
+    1,
+  )
+  const manager = createManager(client)
+  attach(manager)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京天气' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 2, '应只写入文本')
+  assert.equal(manager.messages[1].content, '我来查')
+  assert.ok(!manager.messages[1].tool_calls, '半截 tool_calls 应丢弃')
+})

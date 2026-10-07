@@ -1,1 +1,38 @@
-ewogICJzZW1pIjogZmFsc2UsCiAgInNpbmdsZVF1b3RlIjogdHJ1ZSwKICAic29ydEltcG9ydHMiOiB7CiAgICAibmV3bGluZXNCZXR3ZWVuIjogZmFsc2UsCiAgICAiZ3JvdXBzIjogWwogICAgICAidmFsdWUtYnVpbHRpbiIsCiAgICAgICJ2YWx1ZS1leHRlcm5hbCIsCiAgICAgICJ0eXBlLWV4dGVybmFsIiwKICAgICAgeyAibmV3bGluZXNCZXR3ZWVuIjogdHJ1ZSB9LAogICAgICAidHlwZXMiLAogICAgICAidXRpbHMiLAogICAgICAic2VydmljZXMiLAogICAgICB7ICJuZXdsaW5lc0JldHdlZW4iOiB0cnVlIH0sCiAgICAgICJtb2R1bGVzIiwKICAgICAgeyAibmV3bGluZXNCZXR3ZWVuIjogdHJ1ZSB9LAogICAgICAidW5rbm93biIKICAgIF0sCiAgICAiY3VzdG9tR3JvdXBzIjogWwogICAgICB7CiAgICAgICAgImdyb3VwTmFtZSI6ICJ0eXBlcyIsCiAgICAgICAgImVsZW1lbnROYW1lUGF0dGVybiI6IFsiKiovdHlwZXMiLCAiKiovdHlwZXMvKioiXQogICAgICB9LAogICAgICB7CiAgICAgICAgImdyb3VwTmFtZSI6ICJ1dGlscyIsCiAgICAgICAgImVsZW1lbnROYW1lUGF0dGVybiI6IFsiKiovdXRpbHMiLCAiKiovdXRpbHMvKioiXQogICAgICB9LAogICAgICB7CiAgICAgICAgImdyb3VwTmFtZSI6ICJzZXJ2aWNlcyIsCiAgICAgICAgImVsZW1lbnROYW1lUGF0dGVybiI6IFsiKiovc2VydmljZXMiLCAiKiovc2VydmljZXMvKioiXQogICAgICB9LAogICAgICB7CiAgICAgICAgImdyb3VwTmFtZSI6ICJtb2R1bGVzIiwKICAgICAgICAiZWxlbWVudE5hbWVQYXR0ZXJuIjogWyIqKi9tb2R1bGVzIiwgIioqL21vZHVsZXMvKioiXQogICAgICB9CiAgICBdCiAgfQp9
+{
+  "semi": false,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      "value-builtin",
+      "value-external",
+      "type-external",
+      { "newlinesBetween": true },
+      "types",
+      "utils",
+      "services",
+      { "newlinesBetween": true },
+      "modules",
+      { "newlinesBetween": true },
+      "unknown"
+    ],
+    "customGroups": [
+      {
+        "groupName": "types",
+        "elementNamePattern": ["**/types", "**/types/**"]
+      },
+      {
+        "groupName": "utils",
+        "elementNamePattern": ["**/utils", "**/utils/**"]
+      },
+      {
+        "groupName": "services",
+        "elementNamePattern": ["**/services", "**/services/**"]
+      },
+      {
+        "groupName": "modules",
+        "elementNamePattern": ["**/modules", "**/modules/**"]
+      }
+    ]
+  }
+}

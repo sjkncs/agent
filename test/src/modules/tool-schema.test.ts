@@ -1,1 +1,233 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCgppbXBvcnQgeyBnZW5lcmF0ZVRvb2xzLCB0eXBlIFRvb2wgfSBmcm9tICdAL21vZHVsZXMvbW9kdWxlcy90b29sLnRzJwoKY29uc3QgdG9QYXJhbWV0ZXJzID0gKHRvb2w6IFRvb2wpID0+IGdlbmVyYXRlVG9vbHMoW3Rvb2xdKS50b29sRGVmaW5pdGlvbnNbMF0uZnVuY3Rpb24ucGFyYW1ldGVycwoKYXdhaXQgcnVuVGVzdCgn5omB5bmz5bGe5oCn55qEIHJlcXVpcmVkIOaPkOWNh+S4uumhtuWxguaVsOe7hCcsICgpID0+IHsKICBjb25zdCBwYXJhbWV0ZXJzID0gdG9QYXJhbWV0ZXJzKHsKICAgIG5hbWU6ICdnZXRfd2VhdGhlcicsCiAgICBkZXNjcmlwdGlvbjogJ+iOt+WPluWkqeawlCcsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgIGNpdHk6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5Z+O5biCJywgcmVxdWlyZWQ6IHRydWUgfSwKICAgICAgdW5pdDogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICfljZXkvY0nIH0sCiAgICB9LAogICAgZnVuY3Rpb246ICgpID0+IG51bGwsCiAgfSkKICBhc3NlcnQuZGVlcEVxdWFsKHBhcmFtZXRlcnMucmVxdWlyZWQsIFsnY2l0eSddKQogIGFzc2VydC5kZWVwRXF1YWwocGFyYW1ldGVycy5wcm9wZXJ0aWVzLmNpdHksIHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5Z+O5biCJyB9KQogIGFzc2VydC5kZWVwRXF1YWwocGFyYW1ldGVycy5wcm9wZXJ0aWVzLnVuaXQsIHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5Y2V5L2NJyB9KQp9KQoKYXdhaXQgcnVuVGVzdCgn5bWM5aWXIG9iamVjdCDnmoQgcmVxdWlyZWQg5o+Q5Y2H5Li65YaF5bGC5pWw57uEJywgKCkgPT4gewogIGNvbnN0IHBhcmFtZXRlcnMgPSB0b1BhcmFtZXRlcnMoewogICAgbmFtZTogJ3NlYXJjaCcsCiAgICBkZXNjcmlwdGlvbjogJ+aQnOe0oicsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgIGxvY2F0aW9uOiB7CiAgICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgICAgZGVzY3JpcHRpb246ICfkvY3nva4nLAogICAgICAgIHJlcXVpcmVkOiB0cnVlLAogICAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICAgIGNpdHk6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5Z+O5biCJywgcmVxdWlyZWQ6IHRydWUgfSwKICAgICAgICAgIHJhZGl1czogeyB0eXBlOiAnbnVtYmVyJywgZGVzY3JpcHRpb246ICfljYrlvoQnIH0sCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0sCiAgICBmdW5jdGlvbjogKCkgPT4gbnVsbCwKICB9KQogIGFzc2VydC5kZWVwRXF1YWwocGFyYW1ldGVycy5yZXF1aXJlZCwgWydsb2NhdGlvbiddKQogIGFzc2VydC5kZWVwRXF1YWwocGFyYW1ldGVycy5wcm9wZXJ0aWVzLmxvY2F0aW9uLCB7CiAgICB0eXBlOiAnb2JqZWN0JywKICAgIGRlc2NyaXB0aW9uOiAn5L2N572uJywKICAgIHByb3BlcnRpZXM6IHsKICAgICAgY2l0eTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICfln47luIInIH0sCiAgICAgIHJhZGl1czogeyB0eXBlOiAnbnVtYmVyJywgZGVzY3JpcHRpb246ICfljYrlvoQnIH0sCiAgICB9LAogICAgcmVxdWlyZWQ6IFsnY2l0eSddLAogIH0pCn0pCgphd2FpdCBydW5UZXN0KCfmlbDnu4TlhYPntKDnmoQgcmVxdWlyZWQg5o+Q5Y2H5Li65YWD57Sg5YaF5bGC5pWw57uEJywgKCkgPT4gewogIGNvbnN0IHBhcmFtZXRlcnMgPSB0b1BhcmFtZXRlcnMoewogICAgbmFtZTogJ25lYXJieScsCiAgICBkZXNjcmlwdGlvbjogJ+mZhOi/keWcsOeCuScsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgIHNwb3RzOiB7CiAgICAgICAgdHlwZTogJ2FycmF5JywKICAgICAgICBkZXNjcmlwdGlvbjogJ+WcsOeCueWIl+ihqCcsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUsCiAgICAgICAgaXRlbXM6IHsKICAgICAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICAgICAgZGVzY3JpcHRpb246ICflnLDngrknLAogICAgICAgICAgcHJvcGVydGllczogeyBuYW1lOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+WQjeensCcsIHJlcXVpcmVkOiB0cnVlIH0gfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICAgIGZ1bmN0aW9uOiAoKSA9PiBudWxsLAogIH0pCiAgYXNzZXJ0LmRlZXBFcXVhbChwYXJhbWV0ZXJzLnByb3BlcnRpZXMuc3BvdHMsIHsKICAgIHR5cGU6ICdhcnJheScsCiAgICBkZXNjcmlwdGlvbjogJ+WcsOeCueWIl+ihqCcsCiAgICBpdGVtczogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgZGVzY3JpcHRpb246ICflnLDngrknLAogICAgICBwcm9wZXJ0aWVzOiB7IG5hbWU6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5ZCN56ewJyB9IH0sCiAgICAgIHJlcXVpcmVkOiBbJ25hbWUnXSwKICAgIH0sCiAgfSkKfSkKCmF3YWl0IHJ1blRlc3QoJ+WkmuWxguW1jOWll+mAkOWxguaPkOWNhyByZXF1aXJlZCcsICgpID0+IHsKICBjb25zdCBwYXJhbWV0ZXJzID0gdG9QYXJhbWV0ZXJzKHsKICAgIG5hbWU6ICdlbWl0JywKICAgIGRlc2NyaXB0aW9uOiAn6L6T5Ye6JywKICAgIHByb3BlcnRpZXM6IHsKICAgICAgZmlyc3Q6IHsKICAgICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgICBkZXNjcmlwdGlvbjogJ+esrOS4gOWxgicsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUsCiAgICAgICAgcHJvcGVydGllczogewogICAgICAgICAgc2Vjb25kOiB7CiAgICAgICAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICAgICAgICBkZXNjcmlwdGlvbjogJ+esrOS6jOWxgicsCiAgICAgICAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICAgICAgICB1bml0OiB7CiAgICAgICAgICAgICAgICB0eXBlOiAnc3RyaW5nJywKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiAn5Y2V5L2NJywKICAgICAgICAgICAgICAgIGVudW06IFsnY2Vsc2l1cycsICdmYWhyZW5oZWl0J10sCiAgICAgICAgICAgICAgICByZXF1aXJlZDogdHJ1ZSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICAgIGZ1bmN0aW9uOiAoKSA9PiBudWxsLAogIH0pCiAgYXNzZXJ0LmRlZXBFcXVhbChwYXJhbWV0ZXJzLnByb3BlcnRpZXMuZmlyc3QsIHsKICAgIHR5cGU6ICdvYmplY3QnLAogICAgZGVzY3JpcHRpb246ICfnrKzkuIDlsYInLAogICAgcHJvcGVydGllczogewogICAgICBzZWNvbmQ6IHsKICAgICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgICBkZXNjcmlwdGlvbjogJ+esrOS6jOWxgicsCiAgICAgICAgcHJvcGVydGllczogewogICAgICAgICAgdW5pdDogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICfljZXkvY0nLCBlbnVtOiBbJ2NlbHNpdXMnLCAnZmFocmVuaGVpdCddIH0sCiAgICAgICAgfSwKICAgICAgICByZXF1aXJlZDogWyd1bml0J10sCiAgICAgIH0sCiAgICB9LAogICAgcmVxdWlyZWQ6IFtdLAogIH0pCn0pCgphd2FpdCBydW5UZXN0KCfml6DlrZDlsZ7mgKfnmoQgb2JqZWN0IOS4jeS6p+eUn+WkmuS9meWtl+autScsICgpID0+IHsKICBjb25zdCBwYXJhbWV0ZXJzID0gdG9QYXJhbWV0ZXJzKHsKICAgIG5hbWU6ICdyYXcnLAogICAgZGVzY3JpcHRpb246ICfljp/lp4snLAogICAgcHJvcGVydGllczogeyBtZXRhOiB7IHR5cGU6ICdvYmplY3QnLCBkZXNjcmlwdGlvbjogJ+WFg+aVsOaNricgfSB9LAogICAgZnVuY3Rpb246ICgpID0+IG51bGwsCiAgfSkKICBhc3NlcnQuZGVlcEVxdWFsKHBhcmFtZXRlcnMucHJvcGVydGllcy5tZXRhLCB7IHR5cGU6ICdvYmplY3QnLCBkZXNjcmlwdGlvbjogJ+WFg+aVsOaNricgfSkKfSkKCmF3YWl0IHJ1blRlc3QoJ+W1jOWll+W/heWhqyBzY2hlbWEg56uv5Yiw56uv6LCD55SoJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKFsKICAgIHsKICAgICAgbmFtZTogJ3NlYXJjaF9uZWFyYnknLAogICAgICBkZXNjcmlwdGlvbjogJ+aMieS9jee9ruaQnOe0oumZhOi/keWcsOeCuScsCiAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICBsb2NhdGlvbjogewogICAgICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgICAgICBkZXNjcmlwdGlvbjogJ+aQnOe0ouS9jee9ricsCiAgICAgICAgICByZXF1aXJlZDogdHJ1ZSwKICAgICAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICAgICAgY2l0eTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICfln47luILlkI3np7AnLCByZXF1aXJlZDogdHJ1ZSB9LAogICAgICAgICAgICByYWRpdXM6IHsgdHlwZTogJ251bWJlcicsIGRlc2NyaXB0aW9uOiAn5pCc57Si5Y2K5b6E77yI57Gz77yJJyB9LAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgICBmdW5jdGlvbjogKGFyZ3M6IGFueSkgPT4gKHsgb2s6IHRydWUsIGFyZ3MgfSksCiAgICB9LAogIF0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn6LCD55SoIHNlYXJjaF9uZWFyYnkg5pCc57Si5YyX5LqsIDUwMDAg57Gz5YaF55qE5Zyw54K5JyB9KQoKICBjb25zdCBldmVudFR5cGVzOiBzdHJpbmdbXSA9IFtdCiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IGV2ZW50VHlwZXMucHVzaChlLnR5cGUpCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQogIGFzc2VydC5vayhldmVudFR5cGVzLmluY2x1ZGVzKCd0b29sX3N0YXJ0JyksICfpooTmnJ/op6blj5EgdG9vbF9zdGFydCcpCiAgYXNzZXJ0Lm9rKGV2ZW50VHlwZXMuaW5jbHVkZXMoJ3Rvb2xfZW5kJyksICfpooTmnJ/op6blj5EgdG9vbF9lbmQnKQp9KQoKYXdhaXQgcnVuVGVzdCgn5pWw5YC857qm5p2f6YCP5Lyg5Li6IG1pbmltdW0g5ZKMIG1heGltdW0nLCAoKSA9PiB7CiAgY29uc3QgcGFyYW1ldGVycyA9IHRvUGFyYW1ldGVycyh7CiAgICBuYW1lOiAnZ2V0X21vcmVfbWVzc2FnZXMnLAogICAgZGVzY3JpcHRpb246ICfojrflj5bmm7TlpJrmtojmga8nLAogICAgcHJvcGVydGllczogewogICAgICBiZWZvcmU6IHsKICAgICAgICB0eXBlOiAnaW50ZWdlcicsCiAgICAgICAgZGVzY3JpcHRpb246ICflvoDliY3lho3lj5blpJrlsJHmnaEnLAogICAgICAgIG1pbmltdW06IDAsCiAgICAgICAgbWF4aW11bTogNSwKICAgICAgICByZXF1aXJlZDogdHJ1ZSwKICAgICAgfSwKICAgICAgcmFkaXVzOiB7IHR5cGU6ICdudW1iZXInLCBkZXNjcmlwdGlvbjogJ+WNiuW+hCcsIG1pbmltdW06IDEuNSB9LAogICAgfSwKICAgIGZ1bmN0aW9uOiAoKSA9PiBudWxsLAogIH0pCiAgYXNzZXJ0LmRlZXBFcXVhbChwYXJhbWV0ZXJzLnByb3BlcnRpZXMuYmVmb3JlLCB7CiAgICB0eXBlOiAnaW50ZWdlcicsCiAgICBkZXNjcmlwdGlvbjogJ+W+gOWJjeWGjeWPluWkmuWwkeadoScsCiAgICBtaW5pbXVtOiAwLAogICAgbWF4aW11bTogNSwKICB9KQogIGFzc2VydC5kZWVwRXF1YWwocGFyYW1ldGVycy5wcm9wZXJ0aWVzLnJhZGl1cywgewogICAgdHlwZTogJ251bWJlcicsCiAgICBkZXNjcmlwdGlvbjogJ+WNiuW+hCcsCiAgICBtaW5pbXVtOiAxLjUsCiAgfSkKfSkKCmF3YWl0IHJ1blRlc3QoJ+W1jOWll+e7k+aehOeahOaVsOWAvOe6puadn+WQjOagt+mAj+S8oCcsICgpID0+IHsKICBjb25zdCBwYXJhbWV0ZXJzID0gdG9QYXJhbWV0ZXJzKHsKICAgIG5hbWU6ICdwbGFuX3JvdXRlJywKICAgIGRlc2NyaXB0aW9uOiAn6KeE5YiS6Lev57q/JywKICAgIHByb3BlcnRpZXM6IHsKICAgICAgc3RvcHM6IHsKICAgICAgICB0eXBlOiAnYXJyYXknLAogICAgICAgIGRlc2NyaXB0aW9uOiAn6YCU57uP54K5JywKICAgICAgICByZXF1aXJlZDogdHJ1ZSwKICAgICAgICBtaW5JdGVtczogMSwKICAgICAgICBtYXhJdGVtczogNSwKICAgICAgICBpdGVtczogewogICAgICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgICAgICBkZXNjcmlwdGlvbjogJ+mAlOe7j+eCuScsCiAgICAgICAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICAgICAgIHN0YXk6IHsgdHlwZTogJ2ludGVnZXInLCBkZXNjcmlwdGlvbjogJ+WBnOeVmeWIhumSnycsIG1pbmltdW06IDEsIG1heGltdW06IDEyMCB9LAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICAgIGZ1bmN0aW9uOiAoKSA9PiBudWxsLAogIH0pCiAgYXNzZXJ0LmRlZXBFcXVhbChwYXJhbWV0ZXJzLnByb3BlcnRpZXMuc3RvcHMsIHsKICAgIHR5cGU6ICdhcnJheScsCiAgICBkZXNjcmlwdGlvbjogJ+mAlOe7j+eCuScsCiAgICBtaW5JdGVtczogMSwKICAgIG1heEl0ZW1zOiA1LAogICAgaXRlbXM6IHsKICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgIGRlc2NyaXB0aW9uOiAn6YCU57uP54K5JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIHN0YXk6IHsgdHlwZTogJ2ludGVnZXInLCBkZXNjcmlwdGlvbjogJ+WBnOeVmeWIhumSnycsIG1pbmltdW06IDEsIG1heGltdW06IDEyMCB9LAogICAgICB9LAogICAgICByZXF1aXJlZDogW10sCiAgICB9LAogIH0pCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+
+import { generateTools, type Tool } from '@/modules/modules/tool.ts'
+
+const toParameters = (tool: Tool) => generateTools([tool]).toolDefinitions[0].function.parameters
+
+await runTest('扁平属性的 required 提升为顶层数组', () => {
+  const parameters = toParameters({
+    name: 'get_weather',
+    description: '获取天气',
+    properties: {
+      city: { type: 'string', description: '城市', required: true },
+      unit: { type: 'string', description: '单位' },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.required, ['city'])
+  assert.deepEqual(parameters.properties.city, { type: 'string', description: '城市' })
+  assert.deepEqual(parameters.properties.unit, { type: 'string', description: '单位' })
+})
+
+await runTest('嵌套 object 的 required 提升为内层数组', () => {
+  const parameters = toParameters({
+    name: 'search',
+    description: '搜索',
+    properties: {
+      location: {
+        type: 'object',
+        description: '位置',
+        required: true,
+        properties: {
+          city: { type: 'string', description: '城市', required: true },
+          radius: { type: 'number', description: '半径' },
+        },
+      },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.required, ['location'])
+  assert.deepEqual(parameters.properties.location, {
+    type: 'object',
+    description: '位置',
+    properties: {
+      city: { type: 'string', description: '城市' },
+      radius: { type: 'number', description: '半径' },
+    },
+    required: ['city'],
+  })
+})
+
+await runTest('数组元素的 required 提升为元素内层数组', () => {
+  const parameters = toParameters({
+    name: 'nearby',
+    description: '附近地点',
+    properties: {
+      spots: {
+        type: 'array',
+        description: '地点列表',
+        required: true,
+        items: {
+          type: 'object',
+          description: '地点',
+          properties: { name: { type: 'string', description: '名称', required: true } },
+        },
+      },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.properties.spots, {
+    type: 'array',
+    description: '地点列表',
+    items: {
+      type: 'object',
+      description: '地点',
+      properties: { name: { type: 'string', description: '名称' } },
+      required: ['name'],
+    },
+  })
+})
+
+await runTest('多层嵌套逐层提升 required', () => {
+  const parameters = toParameters({
+    name: 'emit',
+    description: '输出',
+    properties: {
+      first: {
+        type: 'object',
+        description: '第一层',
+        required: true,
+        properties: {
+          second: {
+            type: 'object',
+            description: '第二层',
+            properties: {
+              unit: {
+                type: 'string',
+                description: '单位',
+                enum: ['celsius', 'fahrenheit'],
+                required: true,
+              },
+            },
+          },
+        },
+      },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.properties.first, {
+    type: 'object',
+    description: '第一层',
+    properties: {
+      second: {
+        type: 'object',
+        description: '第二层',
+        properties: {
+          unit: { type: 'string', description: '单位', enum: ['celsius', 'fahrenheit'] },
+        },
+        required: ['unit'],
+      },
+    },
+    required: [],
+  })
+})
+
+await runTest('无子属性的 object 不产生多余字段', () => {
+  const parameters = toParameters({
+    name: 'raw',
+    description: '原始',
+    properties: { meta: { type: 'object', description: '元数据' } },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.properties.meta, { type: 'object', description: '元数据' })
+})
+
+await runTest('嵌套必填 schema 端到端调用', async () => {
+  const manager = createManager()
+  manager.updateTools([
+    {
+      name: 'search_nearby',
+      description: '按位置搜索附近地点',
+      properties: {
+        location: {
+          type: 'object',
+          description: '搜索位置',
+          required: true,
+          properties: {
+            city: { type: 'string', description: '城市名称', required: true },
+            radius: { type: 'number', description: '搜索半径（米）' },
+          },
+        },
+      },
+      function: (args: any) => ({ ok: true, args }),
+    },
+  ])
+  manager.messages.push({ role: 'user', content: '调用 search_nearby 搜索北京 5000 米内的地点' })
+
+  const eventTypes: string[] = []
+  manager.onEvent = (e) => eventTypes.push(e.type)
+
+  await manager.start()
+  assert.ok(eventTypes.includes('tool_start'), '预期触发 tool_start')
+  assert.ok(eventTypes.includes('tool_end'), '预期触发 tool_end')
+})
+
+await runTest('数值约束透传为 minimum 和 maximum', () => {
+  const parameters = toParameters({
+    name: 'get_more_messages',
+    description: '获取更多消息',
+    properties: {
+      before: {
+        type: 'integer',
+        description: '往前再取多少条',
+        minimum: 0,
+        maximum: 5,
+        required: true,
+      },
+      radius: { type: 'number', description: '半径', minimum: 1.5 },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.properties.before, {
+    type: 'integer',
+    description: '往前再取多少条',
+    minimum: 0,
+    maximum: 5,
+  })
+  assert.deepEqual(parameters.properties.radius, {
+    type: 'number',
+    description: '半径',
+    minimum: 1.5,
+  })
+})
+
+await runTest('嵌套结构的数值约束同样透传', () => {
+  const parameters = toParameters({
+    name: 'plan_route',
+    description: '规划路线',
+    properties: {
+      stops: {
+        type: 'array',
+        description: '途经点',
+        required: true,
+        minItems: 1,
+        maxItems: 5,
+        items: {
+          type: 'object',
+          description: '途经点',
+          properties: {
+            stay: { type: 'integer', description: '停留分钟', minimum: 1, maximum: 120 },
+          },
+        },
+      },
+    },
+    function: () => null,
+  })
+  assert.deepEqual(parameters.properties.stops, {
+    type: 'array',
+    description: '途经点',
+    minItems: 1,
+    maxItems: 5,
+    items: {
+      type: 'object',
+      description: '途经点',
+      properties: {
+        stay: { type: 'integer', description: '停留分钟', minimum: 1, maximum: 120 },
+      },
+      required: [],
+    },
+  })
+})

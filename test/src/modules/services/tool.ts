@@ -1,1 +1,51 @@
-aW1wb3J0IHR5cGUgeyBUb29sIH0gZnJvbSAnQC9pbmRleC50cycKCmV4cG9ydCBjb25zdCB0b29sczogVG9vbFtdID0gWwogIHsKICAgIG5hbWU6ICdnZXRfd2VhdGhlcicsCiAgICBkZXNjcmlwdGlvbjogJ+iOt+WPluWkqeawlOS/oeaBrycsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgIGNpdHk6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5Z+O5biC5ZCN56ewJywgcmVxdWlyZWQ6IHRydWUgfSwKICAgICAgdW5pdDogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICfmuKnluqbljZXkvY0nLCBlbnVtOiBbJ2NlbHNpdXMnLCAnZmFocmVuaGVpdCddIH0sCiAgICB9LAogICAgZnVuY3Rpb246IChhcmdzOiB7IGNpdHk6IHN0cmluZzsgdW5pdD86IHN0cmluZyB9KSA9PiB7CiAgICAgIHJldHVybiB7IGNpdHk6IGFyZ3MuY2l0eSwgdGVtcDogMjUsIHVuaXQ6IGFyZ3MudW5pdCA/PyAnY2Vsc2l1cycgfQogICAgfSwKICB9LAogIHsKICAgIG5hbWU6ICdjYWxjdWxhdGUnLAogICAgZGVzY3JpcHRpb246ICfmlbDlraborqHnrpcnLAogICAgcHJvcGVydGllczogewogICAgICBleHByZXNzaW9uOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+aVsOWtpuihqOi+vuW8jycsIHJlcXVpcmVkOiB0cnVlIH0sCiAgICB9LAogICAgZnVuY3Rpb246IChhcmdzOiB7IGV4cHJlc3Npb246IHN0cmluZyB9KSA9PiB7CiAgICAgIHJldHVybiBldmFsKGFyZ3MuZXhwcmVzc2lvbikKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAncmV0dXJuX3N0cmluZycsCiAgICBkZXNjcmlwdGlvbjogJ+i/lOWbnuWtl+espuS4sicsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgIHZhbHVlOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+imgei/lOWbnueahOWAvCcsIHJlcXVpcmVkOiB0cnVlIH0sCiAgICB9LAogICAgZnVuY3Rpb246IChhcmdzOiB7IHZhbHVlOiBzdHJpbmcgfSkgPT4gYXJncy52YWx1ZSwKICB9LAogIHsKICAgIG5hbWU6ICdyZXR1cm5fb2JqZWN0JywKICAgIGRlc2NyaXB0aW9uOiAn6L+U5Zue5a+56LGhJywKICAgIHByb3BlcnRpZXM6IHsKICAgICAga2V5OiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+mUruWQjScsIHJlcXVpcmVkOiB0cnVlIH0sCiAgICB9LAogICAgZnVuY3Rpb246IChhcmdzOiB7IGtleTogc3RyaW5nIH0pID0+ICh7IFthcmdzLmtleV06IDQyIH0pLAogIH0sCiAgewogICAgbmFtZTogJ3JldHVybl9jaXJjdWxhcicsCiAgICBkZXNjcmlwdGlvbjogJ+i/lOWbnuW+queOr+W8leeUqOWvueixoe+8jOeUqOS6jua1i+ivleW6j+WIl+WMluW8guW4uCcsCiAgICBwcm9wZXJ0aWVzOiB7fSwKICAgIGZ1bmN0aW9uOiAoKSA9PiB7CiAgICAgIGNvbnN0IG9iajogYW55ID0geyBhOiAxIH0KICAgICAgb2JqLnNlbGYgPSBvYmoKICAgICAgcmV0dXJuIG9iagogICAgfSwKICB9LApd
+import type { Tool } from '@/index.ts'
+
+export const tools: Tool[] = [
+  {
+    name: 'get_weather',
+    description: '获取天气信息',
+    properties: {
+      city: { type: 'string', description: '城市名称', required: true },
+      unit: { type: 'string', description: '温度单位', enum: ['celsius', 'fahrenheit'] },
+    },
+    function: (args: { city: string; unit?: string }) => {
+      return { city: args.city, temp: 25, unit: args.unit ?? 'celsius' }
+    },
+  },
+  {
+    name: 'calculate',
+    description: '数学计算',
+    properties: {
+      expression: { type: 'string', description: '数学表达式', required: true },
+    },
+    function: (args: { expression: string }) => {
+      return eval(args.expression)
+    },
+  },
+  {
+    name: 'return_string',
+    description: '返回字符串',
+    properties: {
+      value: { type: 'string', description: '要返回的值', required: true },
+    },
+    function: (args: { value: string }) => args.value,
+  },
+  {
+    name: 'return_object',
+    description: '返回对象',
+    properties: {
+      key: { type: 'string', description: '键名', required: true },
+    },
+    function: (args: { key: string }) => ({ [args.key]: 42 }),
+  },
+  {
+    name: 'return_circular',
+    description: '返回循环引用对象，用于测试序列化异常',
+    properties: {},
+    function: () => {
+      const obj: any = { a: 1 }
+      obj.self = obj
+      return obj
+    },
+  },
+]

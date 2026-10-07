@@ -1,1 +1,19 @@
-aW1wb3J0IHsgcmFuZG9tVVVJRCB9IGZyb20gJ25vZGU6Y3J5cHRvJwppbXBvcnQgeyBBSV9DT05GSUcgfSBmcm9tICdAdGVzdC9jb25maWcudGVzdC50cycKaW1wb3J0IE9wZW5BSSBmcm9tICdvcGVuYWknCgppbXBvcnQgeyBjcmVhdGVBZ2VudE1hbmFnZXIgfSBmcm9tICdAL2luZGV4LnRzJwoKY29uc3QgY3JlYXRlQ2xpZW50ID0gKCkgPT4KICBuZXcgT3BlbkFJKHsKICAgIGJhc2VVUkw6IEFJX0NPTkZJRy5iYXNlVVJMLAogICAgYXBpS2V5OiBBSV9DT05GSUcua2V5LAogICAgZGVmYXVsdEhlYWRlcnM6IHsgJ3gtb3BlbmNvZGUtc2Vzc2lvbic6IHJhbmRvbVVVSUQoKSB9LAogIH0pCgpleHBvcnQgY29uc3QgY3JlYXRlTWFuYWdlciA9IChjbGllbnQ6IE9wZW5BSSA9IGNyZWF0ZUNsaWVudCgpKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZUFnZW50TWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci5jb25maWcubW9kZWwgPSBBSV9DT05GSUcubW9kZWwKICBtYW5hZ2VyLmNvbmZpZy5yZWFzb25pbmdfZWZmb3J0ID0gJ25vbmUnCiAgcmV0dXJuIG1hbmFnZXIKfQ==
+import { randomUUID } from 'node:crypto'
+import { AI_CONFIG } from '@test/config.test.ts'
+import OpenAI from 'openai'
+
+import { createAgentManager } from '@/index.ts'
+
+const createClient = () =>
+  new OpenAI({
+    baseURL: AI_CONFIG.baseURL,
+    apiKey: AI_CONFIG.key,
+    defaultHeaders: { 'x-opencode-session': randomUUID() },
+  })
+
+export const createManager = (client: OpenAI = createClient()) => {
+  const manager = createAgentManager(client)
+  manager.config.model = AI_CONFIG.model
+  manager.config.reasoning_effort = 'none'
+  return manager
+}

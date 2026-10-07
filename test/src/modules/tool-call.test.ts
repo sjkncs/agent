@@ -1,1 +1,18 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgn5bel5YW36LCD55So6ZO+6LevJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WMl+S6rOS7iuWkqeWkqeawlOaAjuS5iOagt++8n+ivt+iwg+eUqOW3peWFt+afpeivoicgfSkKCiAgY29uc3QgZXZlbnRUeXBlczogc3RyaW5nW10gPSBbXQogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiBldmVudFR5cGVzLnB1c2goZS50eXBlKQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soZXZlbnRUeXBlcy5pbmNsdWRlcygndG9vbF9zdGFydCcpLCAn6aKE5pyf6Kem5Y+RIHRvb2xfc3RhcnQnKQogIGFzc2VydC5vayhldmVudFR5cGVzLmluY2x1ZGVzKCd0b29sX2VuZCcpLCAn6aKE5pyf6Kem5Y+RIHRvb2xfZW5kJykKfSk=
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('工具调用链路', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '北京今天天气怎么样？请调用工具查询' })
+
+  const eventTypes: string[] = []
+  manager.onEvent = (e) => eventTypes.push(e.type)
+
+  await manager.start()
+  assert.ok(eventTypes.includes('tool_start'), '预期触发 tool_start')
+  assert.ok(eventTypes.includes('tool_end'), '预期触发 tool_end')
+})

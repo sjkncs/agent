@@ -1,1 +1,66 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7CiAgY29udGVudENodW5rLAogIGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudCwKICBmaW5pc2hDaHVuaywKICB0b29sQ2FsbENodW5rLAogIHVzYWdlQ2h1bmssCn0gZnJvbSAnLi9zZXJ2aWNlcy9tb2NrLnRzJwppbXBvcnQgeyB0b29scyB9IGZyb20gJy4vc2VydmljZXMvdG9vbC50cycKCmF3YWl0IHJ1blRlc3QoJ+W3peWFt+WPguaVsOmdnuazlSBKU09OIOaXtuW6lOWbnuWhq+mUmeivr+S4lOS4jeS4reaWrScsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCB9ID0gY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50KFsKICAgIFt0b29sQ2FsbENodW5rKCdjYWxjdWxhdGUnLCAne+mdnuazlScpLCBmaW5pc2hDaHVuaygndG9vbF9jYWxscycpLCB1c2FnZUNodW5rKDEwKV0sCiAgICBbY29udGVudENodW5rKCflj4LmlbDmnInor68nKSwgdXNhZ2VDaHVuaygyMCldLAogIF0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn566X5LiA5LiLJyB9KQoKICBjb25zdCBldmVudHM6IHN0cmluZ1tdID0gW10KICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgZXZlbnRzLnB1c2goZS50eXBlKQogICAgaWYgKGUudHlwZSA9PT0gJ2FnZW50X2Vycm9yJykgdGhyb3cgbmV3IEVycm9yKGDkuI3lupTop6blj5EgYWdlbnRfZXJyb3LvvJoke2UuZXJyb3IubWVzc2FnZX1gKQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5lcXVhbChldmVudHMuZmlsdGVyKCh0eXBlKSA9PiB0eXBlID09PSAndG9vbF9lbmQnKS5sZW5ndGgsIDEsICflupTop6blj5HkuIDmrKEgdG9vbF9lbmQnKQogIGNvbnN0IHRvb2xNZXNzYWdlID0gbWFuYWdlci5tZXNzYWdlcy5maW5kKChtKSA9PiBtLnJvbGUgPT09ICd0b29sJykKICBhc3NlcnQub2sodG9vbE1lc3NhZ2UsICflupTlm57loasgdG9vbCDmtojmga8nKQogIGFzc2VydC5tYXRjaChTdHJpbmcodG9vbE1lc3NhZ2UuY29udGVudCksIC9KU09OL2ksICflupTlm57loasgSlNPTiDop6PmnpDplJnor68nKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzW21hbmFnZXIubWVzc2FnZXMubGVuZ3RoIC0gMV0uY29udGVudCwgJ+WPguaVsOacieivrycsICflupTnu6fnu63kuIvkuIDova4nKQp9KQoKYXdhaXQgcnVuVGVzdCgn6YOo5YiG5bel5YW35Y+C5pWw6Z2e5rOV5pe25YW25L2Z5bel5YW35bqU57un57ut5omn6KGMJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IHsgY2xpZW50IH0gPSBjcmVhdGVTZXF1ZW5jZU1vY2tDbGllbnQoWwogICAgWwogICAgICB0b29sQ2FsbENodW5rKCdnZXRfd2VhdGhlcicsICd7ImNpdHkiOiLljJfkuqwifScsIDApLAogICAgICB0b29sQ2FsbENodW5rKCdjYWxjdWxhdGUnLCAne+mdnuazlScsIDEpLAogICAgICBmaW5pc2hDaHVuaygndG9vbF9jYWxscycpLAogICAgICB1c2FnZUNodW5rKDEwKSwKICAgIF0sCiAgICBbY29udGVudENodW5rKCflrozmiJAnKSwgdXNhZ2VDaHVuaygyMCldLAogIF0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5YWI5p+l5aSp5rCU5YaN6K6h566XJyB9KQoKICBsZXQgc3VjY2Vzc0NvdW50ID0gMAogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAndG9vbF9lbmQnICYmIGUuc3VjY2Vzcykgc3VjY2Vzc0NvdW50KysKICAgIGlmIChlLnR5cGUgPT09ICdhZ2VudF9lcnJvcicpIHRocm93IG5ldyBFcnJvcihg5LiN5bqU6Kem5Y+RIGFnZW50X2Vycm9y77yaJHtlLmVycm9yLm1lc3NhZ2V9YCkKICB9CgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQuZXF1YWwoc3VjY2Vzc0NvdW50LCAxLCAn5q2j5bi45bel5YW35bqU5omn6KGM5oiQ5YqfJykKICBjb25zdCB0b29sTWVzc2FnZXMgPSBtYW5hZ2VyLm1lc3NhZ2VzLmZpbHRlcigobSkgPT4gbS5yb2xlID09PSAndG9vbCcpCiAgYXNzZXJ0LmVxdWFsKHRvb2xNZXNzYWdlcy5sZW5ndGgsIDIsICfkuKTkuKrlt6Xlhbfpg73lupTlm57loasnKQogIGNvbnN0IGZhaWxlZCA9IHRvb2xNZXNzYWdlcy5maW5kKChtKSA9PiBtLnRvb2xfY2FsbF9pZCA9PT0gJ2NhbGxfMScpCiAgYXNzZXJ0Lm9rKGZhaWxlZCwgJ+W6lOS4uumdnuazleWPguaVsOeahCB0b29sX2NhbGwg5Zue5aGr5raI5oGvJykKICBhc3NlcnQubWF0Y2goU3RyaW5nKGZhaWxlZC5jb250ZW50KSwgL0pTT04vaSkKfSk=
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import {
+  contentChunk,
+  createSequenceMockClient,
+  finishChunk,
+  toolCallChunk,
+  usageChunk,
+} from './services/mock.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('工具参数非法 JSON 时应回填错误且不中断', async () => {
+  const { client } = createSequenceMockClient([
+    [toolCallChunk('calculate', '{非法'), finishChunk('tool_calls'), usageChunk(10)],
+    [contentChunk('参数有误'), usageChunk(20)],
+  ])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '算一下' })
+
+  const events: string[] = []
+  manager.onEvent = (e) => {
+    events.push(e.type)
+    if (e.type === 'agent_error') throw new Error(`不应触发 agent_error：${e.error.message}`)
+  }
+
+  await manager.start()
+
+  assert.equal(events.filter((type) => type === 'tool_end').length, 1, '应触发一次 tool_end')
+  const toolMessage = manager.messages.find((m) => m.role === 'tool')
+  assert.ok(toolMessage, '应回填 tool 消息')
+  assert.match(String(toolMessage.content), /JSON/i, '应回填 JSON 解析错误')
+  assert.equal(manager.messages[manager.messages.length - 1].content, '参数有误', '应继续下一轮')
+})
+
+await runTest('部分工具参数非法时其余工具应继续执行', async () => {
+  const { client } = createSequenceMockClient([
+    [
+      toolCallChunk('get_weather', '{"city":"北京"}', 0),
+      toolCallChunk('calculate', '{非法', 1),
+      finishChunk('tool_calls'),
+      usageChunk(10),
+    ],
+    [contentChunk('完成'), usageChunk(20)],
+  ])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '先查天气再计算' })
+
+  let successCount = 0
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_end' && e.success) successCount++
+    if (e.type === 'agent_error') throw new Error(`不应触发 agent_error：${e.error.message}`)
+  }
+
+  await manager.start()
+
+  assert.equal(successCount, 1, '正常工具应执行成功')
+  const toolMessages = manager.messages.filter((m) => m.role === 'tool')
+  assert.equal(toolMessages.length, 2, '两个工具都应回填')
+  const failed = toolMessages.find((m) => m.tool_call_id === 'call_1')
+  assert.ok(failed, '应为非法参数的 tool_call 回填消息')
+  assert.match(String(failed.content), /JSON/i)
+})

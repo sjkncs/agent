@@ -1,1 +1,45 @@
-aW1wb3J0IHR5cGUgeyBDaGF0Q29tcGxldGlvbk1lc3NhZ2VGdW5jdGlvblRvb2xDYWxsIH0gZnJvbSAnb3BlbmFpL3Jlc291cmNlcycKCmV4cG9ydCB0eXBlIFN5c3RlbU1lc3NhZ2UgPSB7CiAgcm9sZTogJ3N5c3RlbScKICBjb250ZW50OiBzdHJpbmcKICBuYW1lPzogc3RyaW5nCiAgW2tleTogc3RyaW5nXTogdW5rbm93bgp9Cgp0eXBlIENvbnRlbnRQYXJ0VGV4dCA9IHsKICB0eXBlOiAndGV4dCcKICB0ZXh0OiBzdHJpbmcKfQp0eXBlIENvbnRlbnRQYXJ0SW1hZ2UgPSB7CiAgdHlwZTogJ2ltYWdlX3VybCcKICBpbWFnZV91cmw6IHsKICAgIHVybDogc3RyaW5nCiAgICBkZXRhaWw/OiAnYXV0bycgfCAnbG93JyB8ICdoaWdoJwogIH0KfQpleHBvcnQgdHlwZSBVc2VyTWVzc2FnZSA9IHsKICByb2xlOiAndXNlcicKICBjb250ZW50OiBzdHJpbmcgfCAoQ29udGVudFBhcnRUZXh0IHwgQ29udGVudFBhcnRJbWFnZSlbXQogIFtrZXk6IHN0cmluZ106IHVua25vd24KfQoKZXhwb3J0IHR5cGUgQXNzaXN0YW50TWVzc2FnZSA9IHsKICByb2xlOiAnYXNzaXN0YW50JwogIGNvbnRlbnQ/OiBzdHJpbmcKICByZWFzb25pbmdfY29udGVudD86IHN0cmluZwogIHRvb2xfY2FsbHM/OiBDaGF0Q29tcGxldGlvbk1lc3NhZ2VGdW5jdGlvblRvb2xDYWxsW10KICBba2V5OiBzdHJpbmddOiB1bmtub3duCn0KCmV4cG9ydCB0eXBlIFRvb2xNZXNzYWdlID0gewogIHJvbGU6ICd0b29sJwogIG5hbWU6IHN0cmluZwogIGNvbnRlbnQ6IHN0cmluZwogIHRvb2xfY2FsbF9pZDogc3RyaW5nCiAgW2tleTogc3RyaW5nXTogdW5rbm93bgp9CgpleHBvcnQgdHlwZSBLbm93bk1lc3NhZ2UgPSBTeXN0ZW1NZXNzYWdlIHwgVXNlck1lc3NhZ2UgfCBBc3Npc3RhbnRNZXNzYWdlIHwgVG9vbE1lc3NhZ2UKCmV4cG9ydCB0eXBlIE1lc3NhZ2UgPSBLbm93bk1lc3NhZ2UgfCB7IFtrZXk6IHN0cmluZ106IHVua25vd24gfQ==
+import type { ChatCompletionMessageFunctionToolCall } from 'openai/resources'
+
+export type SystemMessage = {
+  role: 'system'
+  content: string
+  name?: string
+  [key: string]: unknown
+}
+
+type ContentPartText = {
+  type: 'text'
+  text: string
+}
+type ContentPartImage = {
+  type: 'image_url'
+  image_url: {
+    url: string
+    detail?: 'auto' | 'low' | 'high'
+  }
+}
+export type UserMessage = {
+  role: 'user'
+  content: string | (ContentPartText | ContentPartImage)[]
+  [key: string]: unknown
+}
+
+export type AssistantMessage = {
+  role: 'assistant'
+  content?: string
+  reasoning_content?: string
+  tool_calls?: ChatCompletionMessageFunctionToolCall[]
+  [key: string]: unknown
+}
+
+export type ToolMessage = {
+  role: 'tool'
+  name: string
+  content: string
+  tool_call_id: string
+  [key: string]: unknown
+}
+
+export type KnownMessage = SystemMessage | UserMessage | AssistantMessage | ToolMessage
+
+export type Message = KnownMessage | { [key: string]: unknown }

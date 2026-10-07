@@ -1,1 +1,20 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCgphd2FpdCBydW5UZXN0KCfnroDljZXlr7nor50nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtl++8muWlvScgfSkKCiAgbGV0IGNvbnRlbnQgPSAnJwogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAnbWVzc2FnZV91cGRhdGUnICYmICdjb250ZW50JyBpbiBlLnRleHQpIHsKICAgICAgY29udGVudCArPSBlLnRleHQuY29udGVudCA/PyAnJwogICAgfQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKGNvbnRlbnQubGVuZ3RoID4gMCwgJ+mihOacn+aUtuWIsOWGheWuuScpCiAgYXNzZXJ0Lm9rKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoID49IDIpCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+
+await runTest('简单对话', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  let content = ''
+  manager.onEvent = (e) => {
+    if (e.type === 'message_update' && 'content' in e.text) {
+      content += e.text.content ?? ''
+    }
+  }
+
+  await manager.start()
+  assert.ok(content.length > 0, '预期收到内容')
+  assert.ok(manager.messages.length >= 2)
+})

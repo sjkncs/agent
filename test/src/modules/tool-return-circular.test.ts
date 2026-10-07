@@ -1,1 +1,19 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgn5bel5YW36L+U5Zue5b6q546v5byV55SoJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+iwg+eUqCByZXR1cm5fY2lyY3VsYXIg5bel5YW377yM5LiN6ZyA6KaB5Lu75L2V5Y+C5pWwJyB9KQoKICBsZXQgZXJyb3JFdmVudDogYW55ID0gbnVsbAogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZXJyb3InKSBlcnJvckV2ZW50ID0gZQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKGVycm9yRXZlbnQsICfpooTmnJ/op6blj5EgYWdlbnRfZXJyb3Ig5LqL5Lu2JykKfSk=
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('工具返回循环引用', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '调用 return_circular 工具，不需要任何参数' })
+
+  let errorEvent: any = null
+  manager.onEvent = (e) => {
+    if (e.type === 'agent_error') errorEvent = e
+  }
+
+  await manager.start()
+  assert.ok(errorEvent, '预期触发 agent_error 事件')
+})

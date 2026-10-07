@@ -1,1 +1,88 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgnc3RhcnQg5YmN6LCD55SoIHN0b3Ag5LiN5Lya6Zi75q2i5omn6KGMJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICflm57lpI3kuIDkuKrlrZfvvJrlpb0nIH0pCgogIG1hbmFnZXIuc3RvcCgpCgogIGxldCBhZ2VudFN0YXJ0ZWQgPSBmYWxzZQogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfc3RhcnQnKSBhZ2VudFN0YXJ0ZWQgPSB0cnVlCiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soYWdlbnRTdGFydGVkLCAnc3RhcnQg5LuN5Lya6Kem5Y+RIGFnZW50X3N0YXJ0JykKICBhc3NlcnQub2sobWFuYWdlci5tZXNzYWdlcy5sZW5ndGggPiAwLCAnc3RhcnQg5Lya5q2j5bi45omn6KGM5bm25Lqn55Sf5raI5oGvJykKfSkKCmF3YWl0IHJ1blRlc3QoJ3N0cmVhbWluZyDmnJ/pl7TosIPnlKggc3RvcCDlupTnu4jmraInLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtl++8muWlvScgfSkKCiAgbGV0IGVuZGVkID0gZmFsc2UKICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ21lc3NhZ2VfdXBkYXRlJykgbWFuYWdlci5zdG9wKCkKICAgIGlmIChlLnR5cGUgPT09ICdhZ2VudF9lbmQnKSBlbmRlZCA9IHRydWUKICB9CgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQogIGFzc2VydC5vayhlbmRlZCwgJ+mihOacn+inpuWPkSBhZ2VudF9lbmQnKQp9KQoKYXdhaXQgcnVuVGVzdCgn5bel5YW36LCD55So5ZCO6LCD55SoIHN0b3Ag5LiN5bqU57un57ut5LiL5LiA6L2uJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+iwg+eUqCBnZXRfd2VhdGhlciDlt6Xlhbfmn6Xor6LljJfkuqzlpKnmsJQnIH0pCgogIGxldCBlbmRUdXJuOiBudW1iZXIgfCBudWxsID0gbnVsbAogIGxldCB0dXJuQ291bnQgPSAwCiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IHsKICAgIGlmIChlLnR5cGUgPT09ICd0dXJuX3N0YXJ0JykgdHVybkNvdW50KysKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX2VuZCcpIG1hbmFnZXIuc3RvcCgpCiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZW5kJykgZW5kVHVybiA9IGUudHVybkNvdW50CiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soZW5kVHVybiAhPT0gbnVsbCwgJ+mihOacn+aUtuWIsCBhZ2VudF9lbmQnKQogIGFzc2VydC5lcXVhbCh0dXJuQ291bnQsIDEsICdzdG9wIOWQjuS4jeW6lOacieesrOS6jOi9riB0dXJuX3N0YXJ0JykKfSkKCmF3YWl0IHJ1blRlc3QoJ3N0b3Ag5ZCO5LiN5bqU6Kem5Y+RIG1lc3NhZ2VfdXBkYXRlJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+iwg+eUqCBnZXRfd2VhdGhlciDlt6Xlhbfmn6Xor6LljJfkuqzlpKnmsJQnIH0pCgogIGxldCBhZnRlclN0b3AgPSBmYWxzZQogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAndG9vbF9lbmQnKSBtYW5hZ2VyLnN0b3AoKQogICAgaWYgKGUudHlwZSA9PT0gJ21lc3NhZ2VfdXBkYXRlJyAmJiBhZnRlclN0b3ApIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCdzdG9wIOWQjuS7jeinpuWPkeS6hiBtZXNzYWdlX3VwZGF0ZScpCiAgICB9CiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZW5kJykgYWZ0ZXJTdG9wID0gdHJ1ZQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCn0pCgphd2FpdCBydW5UZXN0KCflpJrmrKHosIPnlKggc3RvcCDkuI3lupTmiqXplJknLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtl++8muWlvScgfSkKCiAgbGV0IGVuZGVkID0gZmFsc2UKICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ21lc3NhZ2VfdXBkYXRlJykgewogICAgICBtYW5hZ2VyLnN0b3AoKQogICAgICBtYW5hZ2VyLnN0b3AoKQogICAgICBtYW5hZ2VyLnN0b3AoKQogICAgfQogICAgaWYgKGUudHlwZSA9PT0gJ2FnZW50X2VuZCcpIGVuZGVkID0gdHJ1ZQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKGVuZGVkLCAn6aKE5pyf6Kem5Y+RIGFnZW50X2VuZCcpCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('start 前调用 stop 不会阻止执行', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  manager.stop()
+
+  let agentStarted = false
+  manager.onEvent = (e) => {
+    if (e.type === 'agent_start') agentStarted = true
+  }
+
+  await manager.start()
+  assert.ok(agentStarted, 'start 仍会触发 agent_start')
+  assert.ok(manager.messages.length > 0, 'start 会正常执行并产生消息')
+})
+
+await runTest('streaming 期间调用 stop 应终止', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  let ended = false
+  manager.onEvent = (e) => {
+    if (e.type === 'message_update') manager.stop()
+    if (e.type === 'agent_end') ended = true
+  }
+
+  await manager.start()
+  assert.ok(ended, '预期触发 agent_end')
+})
+
+await runTest('工具调用后调用 stop 不应继续下一轮', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '调用 get_weather 工具查询北京天气' })
+
+  let endTurn: number | null = null
+  let turnCount = 0
+  manager.onEvent = (e) => {
+    if (e.type === 'turn_start') turnCount++
+    if (e.type === 'tool_end') manager.stop()
+    if (e.type === 'agent_end') endTurn = e.turnCount
+  }
+
+  await manager.start()
+  assert.ok(endTurn !== null, '预期收到 agent_end')
+  assert.equal(turnCount, 1, 'stop 后不应有第二轮 turn_start')
+})
+
+await runTest('stop 后不应触发 message_update', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '调用 get_weather 工具查询北京天气' })
+
+  let afterStop = false
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_end') manager.stop()
+    if (e.type === 'message_update' && afterStop) {
+      throw new Error('stop 后仍触发了 message_update')
+    }
+    if (e.type === 'agent_end') afterStop = true
+  }
+
+  await manager.start()
+})
+
+await runTest('多次调用 stop 不应报错', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  let ended = false
+  manager.onEvent = (e) => {
+    if (e.type === 'message_update') {
+      manager.stop()
+      manager.stop()
+      manager.stop()
+    }
+    if (e.type === 'agent_end') ended = true
+  }
+
+  await manager.start()
+  assert.ok(ended, '预期触发 agent_end')
+})

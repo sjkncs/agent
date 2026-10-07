@@ -1,1 +1,207 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7CiAgY29udGVudENodW5rLAogIGNyZWF0ZUZhaWxpbmdNb2NrQ2xpZW50LAogIGNyZWF0ZVJlamVjdGluZ01vY2tDbGllbnQsCiAgY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50LAogIHJlYXNvbmluZ0NodW5rLAogIHVzYWdlQ2h1bmssCn0gZnJvbSAnLi9zZXJ2aWNlcy9tb2NrLnRzJwoKY29uc3QgY29sbGVjdENvbnRlbnQgPSAobWFuYWdlcjogUmV0dXJuVHlwZTx0eXBlb2YgY3JlYXRlTWFuYWdlcj4pID0+IHsKICBjb25zdCBjaHVua3M6IHN0cmluZ1tdID0gW10KICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ21lc3NhZ2VfdXBkYXRlJyAmJiAnY29udGVudCcgaW4gZS50ZXh0KSBjaHVua3MucHVzaChlLnRleHQuY29udGVudCA/PyAnJykKICB9CiAgcmV0dXJuIGNodW5rcwp9Cgphd2FpdCBydW5UZXN0KCdwcmVmaWxs77ya5pyr5bC+IGFzc2lzdGFudCDlupTkvZzkuLrmj5DnpLror43liY3kuIDmnaEnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQsIHJlcXVlc3RzIH0gPSBjcmVhdGVTZXF1ZW5jZU1vY2tDbGllbnQoW1tjb250ZW50Q2h1bmsoJzInKSwgdXNhZ2VDaHVuaygyMCldXSkKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAnMSsxPScgfSkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ+etlOahiOaYryAxKzE9JyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgY29uc3Qgc2VudCA9IHJlcXVlc3RzWzBdLm1lc3NhZ2VzCiAgYXNzZXJ0LmRlZXBFcXVhbChzZW50W3NlbnQubGVuZ3RoIC0gMl0sIHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICfnrZTmoYjmmK8gMSsxPScgfSkKfSkKCmF3YWl0IHJ1blRlc3QoJ3ByZWZpbGzvvJrnu63lhpnmj5DnpLror43lupTov73liqDlnKggYXNzaXN0YW50IOS5i+WQjicsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCwgcmVxdWVzdHMgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygnMicpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICcxKzE9JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBjb25zdCBzZW50ID0gcmVxdWVzdHNbMF0ubWVzc2FnZXMKICBhc3NlcnQuZXF1YWwoc2VudFtzZW50Lmxlbmd0aCAtIDFdLnJvbGUsICdzeXN0ZW0nLCAn5o+Q56S66K+N5bqU5ZyoIGFzc2lzdGFudCDkuYvlkI4nKQogIGFzc2VydC5tYXRjaChzZW50W3NlbnQubGVuZ3RoIC0gMV0uY29udGVudCwgL+e7reWGmS8pCiAgYXNzZXJ0LmVxdWFsKHNlbnRbc2VudC5sZW5ndGggLSAyXS5yb2xlLCAnYXNzaXN0YW50JykKfSkKCmF3YWl0IHJ1blRlc3QoJ3ByZWZpbGzvvJrnlJ/miJDlkI7lupTmm7/mjaLogIzpnZ7ov73liqAnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygnMicpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICcxKzE9JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlcy5sZW5ndGgsIDIsICfkuI3lupTov73liqDmlrDmtojmga8nKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzWzFdLmNvbnRlbnQsICfnrZTmoYjmmK8gMSsxPTInLCAn5bqU5ou85o6l5YmN57yAJykKfSkKCmF3YWl0IHJ1blRlc3QoJ3ByZWZpbGzvvJptZXNzYWdlX3VwZGF0ZSDlj6rlj5Hlop7ph48nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygnMicpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICcxKzE9JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCiAgY29uc3QgY2h1bmtzID0gY29sbGVjdENvbnRlbnQobWFuYWdlcikKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5kZWVwRXF1YWwoY2h1bmtzLCBbJzInXSkKfSkKCmF3YWl0IHJ1blRlc3QoJ+acq+WwvuS4uiB1c2VyIOaXtuS4jeW6lOaPkuaPkOekuuivjeS4lOato+W4uOi/veWKoCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCwgcmVxdWVzdHMgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygn5aW9JyksIHVzYWdlQ2h1bmsoMjApXV0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtlycgfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5vayghcmVxdWVzdHNbMF0ubWVzc2FnZXMuc29tZSgobTogYW55KSA9PiBtLnJvbGUgPT09ICdzeXN0ZW0nKSwgJ+mdniBwcmVmaWxsIOS4jeW6lOaPkuaPkOekuuivjScpCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAyKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzWzFdLmNvbnRlbnQsICflpb0nKQp9KQoKYXdhaXQgcnVuVGVzdCgn5bel5YW35raI5oGv5LmL5ZCO5LiN5bqU5Yik5Li6IHByZWZpbGwnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQsIHJlcXVlc3RzIH0gPSBjcmVhdGVTZXF1ZW5jZU1vY2tDbGllbnQoW1tjb250ZW50Q2h1bmsoJ+WlvScpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICd4JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7CiAgICByb2xlOiAnYXNzaXN0YW50JywKICAgIGNvbnRlbnQ6ICdhJywKICAgIHRvb2xfY2FsbHM6IFt7IGlkOiAnYycsIHR5cGU6ICdmdW5jdGlvbicsIGZ1bmN0aW9uOiB7IG5hbWU6ICdmJywgYXJndW1lbnRzOiAne30nIH0gfV0sCiAgfSkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndG9vbCcsIG5hbWU6ICdnZXRfd2VhdGhlcicsIGNvbnRlbnQ6ICdyJywgdG9vbF9jYWxsX2lkOiAnYycgfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGFzc2VydC5vayghcmVxdWVzdHNbMF0ubWVzc2FnZXMuc29tZSgobTogYW55KSA9PiBtLnJvbGUgPT09ICdzeXN0ZW0nKSwgJ+W3peWFt+i9ruS4jeW6lOaPkuaPkOekuuivjScpCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCA0LCAn5bqU6L+95Yqg5paw5raI5oGvJykKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlc1szXS5jb250ZW50LCAn5aW9JykKfSkKCmF3YWl0IHJ1blRlc3QoJ3ByZWZpbGzvvJrkuI3lupTmsaHmn5MgbWVzc2FnZXMnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygnMicpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICcxKzE9JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQub2soIW1hbmFnZXIubWVzc2FnZXMuc29tZSgobSkgPT4gbS5yb2xlID09PSAnc3lzdGVtJyksICfmj5DnpLror43kuI3lupTlhpnlhaUgbWVzc2FnZXMnKQp9KQoKYXdhaXQgcnVuVGVzdCgn5pyr5bC+5Li6IHN5c3RlbSDml7bku43lupTliKTkuLogcHJlZmlsbCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCwgcmVxdWVzdHMgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbW2NvbnRlbnRDaHVuaygnMicpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICcxKzE9JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3N5c3RlbScsIGNvbnRlbnQ6ICfkvaDmmK/kuIDkuKrliqnmiYsnIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBjb25zdCBzZW50ID0gcmVxdWVzdHNbMF0ubWVzc2FnZXMKICBhc3NlcnQuZXF1YWwoc2VudFtzZW50Lmxlbmd0aCAtIDNdLmNvbnRlbnQsICfnrZTmoYjmmK8gMSsxPScsICdhc3Npc3RhbnQg5bqU5L+d55WZ5YmN57yAJykKICBhc3NlcnQuZXF1YWwoc2VudFtzZW50Lmxlbmd0aCAtIDJdLmNvbnRlbnQsICfkvaDmmK/kuIDkuKrliqnmiYsnLCAnc3lzdGVtIOW6lOS/neaMgeWcqOWOn+S9jScpCiAgYXNzZXJ0LmVxdWFsKHNlbnRbc2VudC5sZW5ndGggLSAxXS5yb2xlLCAnc3lzdGVtJywgJ+aPkOekuuivjeW6lOWcqOacq+WwvicpCiAgYXNzZXJ0Lm1hdGNoKHNlbnRbc2VudC5sZW5ndGggLSAxXS5jb250ZW50LCAv57ut5YaZLykKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlc1sxXS5jb250ZW50LCAn562U5qGI5pivIDErMT0yJywgJ+W6lOabv+aNouiAjOmdnui/veWKoCcpCn0pCgphd2FpdCBydW5UZXN0KCfmnKvlsL7kuLrmnKrnn6Ugcm9sZSDml7bku43lupTliKTkuLogcHJlZmlsbCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCB9ID0gY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50KFtbY29udGVudENodW5rKCcyJyksIHVzYWdlQ2h1bmsoMjApXV0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJzErMT0nIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICfnrZTmoYjmmK8gMSsxPScgfSkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAnY3VzdG9tJywgY29udGVudDogJ2MnIH0gYXMgYW55KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXNbMV0uY29udGVudCwgJ+etlOahiOaYryAxKzE9MicsICflupTmm7/mjaLogIzpnZ7ov73liqAnKQp9KQoKYXdhaXQgcnVuVGVzdCgn5LuFIGFzc2lzdGFudCDml7bkuZ/lupTliKTkuLogcHJlZmlsbCcsIGFzeW5jICgpID0+IHsKICBjb25zdCB7IGNsaWVudCB9ID0gY3JlYXRlU2VxdWVuY2VNb2NrQ2xpZW50KFtbY29udGVudENodW5rKCcyJyksIHVzYWdlQ2h1bmsoMjApXV0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn562U5qGI5pivIDErMT0nIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlcy5sZW5ndGgsIDEsICfkuI3lupTov73liqAnKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzWzBdLmNvbnRlbnQsICfnrZTmoYjmmK8gMSsxPTInKQp9KQoKYXdhaXQgcnVuVGVzdCgnY29udGVudCDkuLrnqbrml7bkuI3lupTmi7zlh7ogdW5kZWZpbmVkJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IHsgY2xpZW50IH0gPSBjcmVhdGVTZXF1ZW5jZU1vY2tDbGllbnQoW1tjb250ZW50Q2h1bmsoJ+e7rScpLCB1c2FnZUNodW5rKDIwKV1dKQogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGNsaWVudCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICd4JyB9KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICdhc3Npc3RhbnQnIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQoKICBhc3NlcnQuZXF1YWwobWFuYWdlci5tZXNzYWdlc1sxXS5jb250ZW50LCAn57utJykKfSkKCmF3YWl0IHJ1blRlc3QoJ3JlYXNvbmluZyDlhYjkuo4gY29udGVudCDml7blupTmraPluLjovpPlh7onLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBjbGllbnQgfSA9IGNyZWF0ZVNlcXVlbmNlTW9ja0NsaWVudChbCiAgICBbcmVhc29uaW5nQ2h1bmsoJ+WXr+KApicpLCBjb250ZW50Q2h1bmsoJzInKSwgdXNhZ2VDaHVuaygyMCldLAogIF0pCiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY2xpZW50KQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJzErMT0nIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICfnrZTmoYjmmK8gMSsxPScgfSkKICBjb25zdCBjaHVua3MgPSBjb2xsZWN0Q29udGVudChtYW5hZ2VyKQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmRlZXBFcXVhbChjaHVua3MsIFsnMiddKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLm1lc3NhZ2VzWzFdLmNvbnRlbnQsICfnrZTmoYjmmK8gMSsxPTInKQp9KQoKYXdhaXQgcnVuVGVzdCgn6Zu2IGNodW5rIOaWrea1geaXtuS4jeW6lOi/veWKoOepuua2iOaBrycsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjcmVhdGVGYWlsaW5nTW9ja0NsaWVudChuZXcgRXJyb3IoJ+i/nuaOpeS4reaWrScpKSkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICd4JyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAxLCAn5pyq5pS25Yiw5YaF5a655pe25LiN5bqU6L+95YqgJykKfSkKCmF3YWl0IHJ1blRlc3QoJ2NyZWF0ZSDlpLHotKXml7bkuI3lupTov73liqDmtojmga8nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoY3JlYXRlUmVqZWN0aW5nTW9ja0NsaWVudChuZXcgRXJyb3IoJ+e9kee7nOmUmeivrycpKSkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICd4JyB9KQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKCiAgYXNzZXJ0LmVxdWFsKG1hbmFnZXIubWVzc2FnZXMubGVuZ3RoLCAxKQp9KQoKYXdhaXQgcnVuVGVzdCgncHJlZmlsbCDlupTop6blj5HmqKHlnovnu63lhpnogIzpnZ7lm57mmL4nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+ivt+iuoeeulyAxKzEnIH0pCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICfnrZTmoYjmmK8gMSsxPScgfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCgogIGNvbnN0IGNvbnRlbnQgPSBTdHJpbmcobWFuYWdlci5tZXNzYWdlc1ttYW5hZ2VyLm1lc3NhZ2VzLmxlbmd0aCAtIDFdLmNvbnRlbnQpCiAgYXNzZXJ0Lm9rKGNvbnRlbnQuc3RhcnRzV2l0aCgn562U5qGI5pivIDErMT0nKSwgYOW6lOS/neeVmeWJjee8gO+8jOWunumZhe+8miR7Y29udGVudH1gKQogIGFzc2VydC5lcXVhbChjb250ZW50LmluZGV4T2YoJ+etlOahiOaYryAxKzE9JywgMSksIC0xLCBg5YmN57yA5LiN5bqU6YeN5aSN5Ye6546w77yM5a6e6ZmF77yaJHtjb250ZW50fWApCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import {
+  contentChunk,
+  createFailingMockClient,
+  createRejectingMockClient,
+  createSequenceMockClient,
+  reasoningChunk,
+  usageChunk,
+} from './services/mock.ts'
+
+const collectContent = (manager: ReturnType<typeof createManager>) => {
+  const chunks: string[] = []
+  manager.onEvent = (e) => {
+    if (e.type === 'message_update' && 'content' in e.text) chunks.push(e.text.content ?? '')
+  }
+  return chunks
+}
+
+await runTest('prefill：末尾 assistant 应作为提示词前一条', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  const sent = requests[0].messages
+  assert.deepEqual(sent[sent.length - 2], { role: 'assistant', content: '答案是 1+1=' })
+})
+
+await runTest('prefill：续写提示词应追加在 assistant 之后', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  const sent = requests[0].messages
+  assert.equal(sent[sent.length - 1].role, 'system', '提示词应在 assistant 之后')
+  assert.match(sent[sent.length - 1].content, /续写/)
+  assert.equal(sent[sent.length - 2].role, 'assistant')
+})
+
+await runTest('prefill：生成后应替换而非追加', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 2, '不应追加新消息')
+  assert.equal(manager.messages[1].content, '答案是 1+1=2', '应拼接前缀')
+})
+
+await runTest('prefill：message_update 只发增量', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+  const chunks = collectContent(manager)
+
+  await manager.start()
+
+  assert.deepEqual(chunks, ['2'])
+})
+
+await runTest('末尾为 user 时不应插提示词且正常追加', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('好'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '回复一个字' })
+
+  await manager.start()
+
+  assert.ok(!requests[0].messages.some((m: any) => m.role === 'system'), '非 prefill 不应插提示词')
+  assert.equal(manager.messages.length, 2)
+  assert.equal(manager.messages[1].content, '好')
+})
+
+await runTest('工具消息之后不应判为 prefill', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('好'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: 'x' })
+  manager.messages.push({
+    role: 'assistant',
+    content: 'a',
+    tool_calls: [{ id: 'c', type: 'function', function: { name: 'f', arguments: '{}' } }],
+  })
+  manager.messages.push({ role: 'tool', name: 'get_weather', content: 'r', tool_call_id: 'c' })
+
+  await manager.start()
+
+  assert.ok(!requests[0].messages.some((m: any) => m.role === 'system'), '工具轮不应插提示词')
+  assert.equal(manager.messages.length, 4, '应追加新消息')
+  assert.equal(manager.messages[3].content, '好')
+})
+
+await runTest('prefill：不应污染 messages', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  assert.ok(!manager.messages.some((m) => m.role === 'system'), '提示词不应写入 messages')
+})
+
+await runTest('末尾为 system 时仍应判为 prefill', async () => {
+  const { client, requests } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+  manager.messages.push({ role: 'system', content: '你是一个助手' })
+
+  await manager.start()
+
+  const sent = requests[0].messages
+  assert.equal(sent[sent.length - 3].content, '答案是 1+1=', 'assistant 应保留前缀')
+  assert.equal(sent[sent.length - 2].content, '你是一个助手', 'system 应保持在原位')
+  assert.equal(sent[sent.length - 1].role, 'system', '提示词应在末尾')
+  assert.match(sent[sent.length - 1].content, /续写/)
+  assert.equal(manager.messages[1].content, '答案是 1+1=2', '应替换而非追加')
+})
+
+await runTest('末尾为未知 role 时仍应判为 prefill', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+  manager.messages.push({ role: 'custom', content: 'c' } as any)
+
+  await manager.start()
+
+  assert.equal(manager.messages[1].content, '答案是 1+1=2', '应替换而非追加')
+})
+
+await runTest('仅 assistant 时也应判为 prefill', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('2'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 1, '不应追加')
+  assert.equal(manager.messages[0].content, '答案是 1+1=2')
+})
+
+await runTest('content 为空时不应拼出 undefined', async () => {
+  const { client } = createSequenceMockClient([[contentChunk('续'), usageChunk(20)]])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: 'x' })
+  manager.messages.push({ role: 'assistant' })
+
+  await manager.start()
+
+  assert.equal(manager.messages[1].content, '续')
+})
+
+await runTest('reasoning 先于 content 时应正常输出', async () => {
+  const { client } = createSequenceMockClient([
+    [reasoningChunk('嗯…'), contentChunk('2'), usageChunk(20)],
+  ])
+  const manager = createManager(client)
+  manager.messages.push({ role: 'user', content: '1+1=' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+  const chunks = collectContent(manager)
+
+  await manager.start()
+
+  assert.deepEqual(chunks, ['2'])
+  assert.equal(manager.messages[1].content, '答案是 1+1=2')
+})
+
+await runTest('零 chunk 断流时不应追加空消息', async () => {
+  const manager = createManager(createFailingMockClient(new Error('连接中断')))
+  manager.messages.push({ role: 'user', content: 'x' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 1, '未收到内容时不应追加')
+})
+
+await runTest('create 失败时不应追加消息', async () => {
+  const manager = createManager(createRejectingMockClient(new Error('网络错误')))
+  manager.messages.push({ role: 'user', content: 'x' })
+
+  await manager.start()
+
+  assert.equal(manager.messages.length, 1)
+})
+
+await runTest('prefill 应触发模型续写而非回显', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '请计算 1+1' })
+  manager.messages.push({ role: 'assistant', content: '答案是 1+1=' })
+
+  await manager.start()
+
+  const content = String(manager.messages[manager.messages.length - 1].content)
+  assert.ok(content.startsWith('答案是 1+1='), `应保留前缀，实际：${content}`)
+  assert.equal(content.indexOf('答案是 1+1=', 1), -1, `前缀不应重复出现，实际：${content}`)
+})

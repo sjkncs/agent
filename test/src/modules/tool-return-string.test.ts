@@ -1,1 +1,16 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgn5bel5YW36L+U5Zue5a2X56ym5LiyJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+iwg+eUqCByZXR1cm5fc3RyaW5nIOW3peWFt++8jOS8oOWFpSB2YWx1ZSDkuLogaGVsbG8nIH0pCgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQogIGNvbnN0IHRvb2xNc2cgPSBtYW5hZ2VyLm1lc3NhZ2VzLmZpbmQoKG0pID0+IG0ucm9sZSA9PT0gJ3Rvb2wnKQogIGFzc2VydC5vayh0b29sTXNnLCAn6aKE5pyf5a2Y5ZyoIHRvb2wg5raI5oGvJykKICBhc3NlcnQuZXF1YWwodG9vbE1zZy5jb250ZW50LCAnaGVsbG8nKQp9KQ==
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('工具返回字符串', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({ role: 'user', content: '调用 return_string 工具，传入 value 为 hello' })
+
+  await manager.start()
+  const toolMsg = manager.messages.find((m) => m.role === 'tool')
+  assert.ok(toolMsg, '预期存在 tool 消息')
+  assert.equal(toolMsg.content, 'hello')
+})

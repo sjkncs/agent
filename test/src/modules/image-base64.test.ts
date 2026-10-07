@@ -1,1 +1,30 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCgphd2FpdCBydW5UZXN0KCdiYXNlNjQg5Zu+54mH5Y+R6YCBJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goewogICAgcm9sZTogJ3VzZXInLAogICAgY29udGVudDogWwogICAgICB7IHR5cGU6ICd0ZXh0JywgdGV4dDogJ+i/meW8oOWbvueJh+aYr+S7gOS5iOminOiJsu+8n+WPquWbnuetlOminOiJsicgfSwKICAgICAgewogICAgICAgIHR5cGU6ICdpbWFnZV91cmwnLAogICAgICAgIGltYWdlX3VybDogewogICAgICAgICAgdXJsOiAnZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FZQUFBQWZGY1NKQUFBQURVbEVRVlI0Mm1QOC81K2hIZ0FIZ2dKL1BjaEk3d0FBQUFCSlJVNUVya0pnZ2c9PScsCiAgICAgICAgfSwKICAgICAgfSwKICAgIF0sCiAgfSkKCiAgbGV0IGNvbnRlbnQgPSAnJwogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAnbWVzc2FnZV91cGRhdGUnICYmICdjb250ZW50JyBpbiBlLnRleHQpIHsKICAgICAgY29udGVudCArPSBlLnRleHQuY29udGVudCA/PyAnJwogICAgfQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKGNvbnRlbnQubGVuZ3RoID4gMCwgJ+mihOacn+aUtuWIsOWGheWuuScpCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+
+await runTest('base64 图片发送', async () => {
+  const manager = createManager()
+  manager.messages.push({
+    role: 'user',
+    content: [
+      { type: 'text', text: '这张图片是什么颜色？只回答颜色' },
+      {
+        type: 'image_url',
+        image_url: {
+          url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==',
+        },
+      },
+    ],
+  })
+
+  let content = ''
+  manager.onEvent = (e) => {
+    if (e.type === 'message_update' && 'content' in e.text) {
+      content += e.text.content ?? ''
+    }
+  }
+
+  await manager.start()
+  assert.ok(content.length > 0, '预期收到内容')
+})

@@ -1,1 +1,13 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCgphd2FpdCBydW5UZXN0KCd1c2FnZSDnu5/orqHmraPnoa4nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtl++8muWlvScgfSkKCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKHR5cGVvZiBtYW5hZ2VyLnVzYWdlID09PSAnbnVtYmVyJywgJ+mihOacnyB1c2FnZSDkuLogbnVtYmVyJykKICBhc3NlcnQub2sobWFuYWdlci51c2FnZSA+IDAsICfpooTmnJ8gdXNhZ2UgPiAwJykKfSk=
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+
+await runTest('usage 统计正确', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  await manager.start()
+  assert.ok(typeof manager.usage === 'number', '预期 usage 为 number')
+  assert.ok(manager.usage > 0, '预期 usage > 0')
+})

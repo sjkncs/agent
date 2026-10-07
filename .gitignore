@@ -1,1 +1,8 @@
-IyDns7vnu58KLkRTX1N0b3JlCgojIOmhueebrgpub2RlX21vZHVsZXMKZGlzdApjb25maWcudHMKY29uZmlnLnRlc3QudHM=
+# 系统
+.DS_Store
+
+# 项目
+node_modules
+dist
+config.ts
+config.test.ts

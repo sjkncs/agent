@@ -1,1 +1,99 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IGNyZWF0ZU1vY2tDbGllbnQsIHRvb2xDYWxsQ2h1bmssIHVzYWdlQ2h1bmsgfSBmcm9tICcuL3NlcnZpY2VzL21vY2sudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgndG9vbF9jaG9pY2Ug6buY6K6k5YC85bqU5Li6IGF1dG8nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIGFzc2VydC5lcXVhbChtYW5hZ2VyLmNvbmZpZy50b29sX2Nob2ljZSwgJ2F1dG8nLCAndG9vbF9jaG9pY2Ug6buY6K6k5YC85bqU5Li6IGF1dG8nKQp9KQoKYXdhaXQgcnVuVGVzdCgndG9vbF9jaG9pY2U6IHJlcXVpcmVkIOW6lOW8uuWItuW3peWFt+iwg+eUqCcsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcigpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLmNvbmZpZy50b29sX2Nob2ljZSA9ICdyZXF1aXJlZCcKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICfljJfkuqzku4rlpKnlpKnmsJTmgI7kuYjmoLfvvJ8nIH0pCgogIGxldCB0b29sU3RhcnRlZCA9IGZhbHNlCiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IHsKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX3N0YXJ0JykgdG9vbFN0YXJ0ZWQgPSB0cnVlCiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2sodG9vbFN0YXJ0ZWQsICd0b29sX2Nob2ljZSDkuLogcmVxdWlyZWQg5pe25b+F6aG76Kem5Y+R5bel5YW36LCD55SoJykKfSkKCmF3YWl0IHJ1blRlc3QoJ3Rvb2xfY2hvaWNlOiBhdXRvIOW6lOeUseaooeWei+iHquS4u+WGs+WumicsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcigpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLmNvbmZpZy50b29sX2Nob2ljZSA9ICdhdXRvJwogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+iwg+eUqCBnZXRfd2VhdGhlciDlt6Xlhbfmn6Xor6LljJfkuqzlpKnmsJQnIH0pCgogIGxldCB0b29sU3RhcnRlZCA9IGZhbHNlCiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IHsKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX3N0YXJ0JykgdG9vbFN0YXJ0ZWQgPSB0cnVlCiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2sodG9vbFN0YXJ0ZWQsICd0b29sX2Nob2ljZSDkuLogYXV0byDml7bmqKHlnovlupToh6rkuLvlhrPlrprosIPnlKjlt6XlhbcnKQp9KQoKYXdhaXQgcnVuVGVzdCgndG9vbF9jaG9pY2Ug5Li65bel5YW35ZCN5bqU5by65Yi26LCD55So5oyH5a6a5bel5YW3JywgYXN5bmMgKCkgPT4gewogIGNvbnN0IG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKCkKICBtYW5hZ2VyLnVwZGF0ZVRvb2xzKHRvb2xzKQogIG1hbmFnZXIuY29uZmlnLnRvb2xfY2hvaWNlID0gJ2dldF93ZWF0aGVyJwogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WMl+S6rOS7iuWkqeWkqeawlOaAjuS5iOagtycgfSkKCiAgbGV0IHRvb2xOYW1lID0gJycKICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ3Rvb2xfc3RhcnQnKSB0b29sTmFtZSA9IGUudG9vbENhbGwuZnVuY3Rpb24ubmFtZQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0LmVxdWFsKHRvb2xOYW1lLCAnZ2V0X3dlYXRoZXInLCAndG9vbF9jaG9pY2Ug5Li65bel5YW35ZCN5pe25bqU5by65Yi26LCD55So5oyH5a6a5bel5YW3JykKfSkKCmF3YWl0IHJ1blRlc3QoJ3Rvb2xfY2hvaWNlIOS4uuW3peWFt+WQjeaXtuaooeWei+iwg+eUqOWFtuS7luW3peWFt+W6lOaKpemUmScsIGFzeW5jICgpID0+IHsKICBjb25zdCBjbGllbnQgPSBjcmVhdGVNb2NrQ2xpZW50KFsKICAgIHRvb2xDYWxsQ2h1bmsoJ2NhbGN1bGF0ZScsICd7ImV4cHJlc3Npb24iOiIxKzEifScpLAogICAgdXNhZ2VDaHVuaygxMCksCiAgXSkKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLmNvbmZpZy50b29sX2Nob2ljZSA9ICdnZXRfd2VhdGhlcicKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICforqHnrpcgMSsxJyB9KQoKICBsZXQgdG9vbFN0YXJ0ZWQgPSBmYWxzZQogIGxldCBhZ2VudEVycm9yOiBhbnkKICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ3Rvb2xfc3RhcnQnKSB0b29sU3RhcnRlZCA9IHRydWUKICAgIGlmIChlLnR5cGUgPT09ICdhZ2VudF9lcnJvcicpIGFnZW50RXJyb3IgPSBlLmVycm9yCiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soIXRvb2xTdGFydGVkLCAn5LiN5bqU5omn6KGM6Z2e5oyH5a6a5bel5YW3JykKICBhc3NlcnQub2soYWdlbnRFcnJvciwgJ+aooeWei+iwg+eUqOmdnuaMh+WumuW3peWFt+aXtuW6lOinpuWPkSBhZ2VudF9lcnJvcicpCiAgYXNzZXJ0LmVxdWFsKGFnZW50RXJyb3IuY29kZSwgNDAwLCAn5bqU5LulIDQwMCDmiqXplJknKQp9KQoKYXdhaXQgcnVuVGVzdCgndG9vbF9jaG9pY2U6IG5vbmUg5pe25qih5Z6L6L+d6KeE6L+U5Zue5bel5YW36LCD55So5bqU5oql6ZSZJywgYXN5bmMgKCkgPT4gewogIGNvbnN0IGNsaWVudCA9IGNyZWF0ZU1vY2tDbGllbnQoW3Rvb2xDYWxsQ2h1bmsoJ2dldF93ZWF0aGVyJywgJ3siY2l0eSI6IuWMl+S6rCJ9JyksIHVzYWdlQ2h1bmsoMTApXSkKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihjbGllbnQpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLmNvbmZpZy50b29sX2Nob2ljZSA9ICdub25lJwogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+afpeivouWMl+S6rOWkqeawlCcgfSkKCiAgbGV0IHRvb2xTdGFydGVkID0gZmFsc2UKICBsZXQgYWdlbnRFcnJvcjogYW55CiAgbWFuYWdlci5vbkV2ZW50ID0gKGUpID0+IHsKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX3N0YXJ0JykgdG9vbFN0YXJ0ZWQgPSB0cnVlCiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZXJyb3InKSBhZ2VudEVycm9yID0gZS5lcnJvcgogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKCF0b29sU3RhcnRlZCwgJ3Rvb2xfY2hvaWNlIOS4uiBub25lIOaXtuS4jeW6lOinpuWPkeW3peWFt+iwg+eUqCcpCiAgYXNzZXJ0Lm9rKGFnZW50RXJyb3IsICfmqKHlnovov53op4Tov5Tlm57lt6XlhbfosIPnlKjml7blupTop6blj5EgYWdlbnRfZXJyb3InKQogIGFzc2VydC5lcXVhbChhZ2VudEVycm9yLmNvZGUsIDQwMCwgJ+W6lOS7pSA0MDAg5oql6ZSZJykKfSk=
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { createMockClient, toolCallChunk, usageChunk } from './services/mock.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('tool_choice 默认值应为 auto', async () => {
+  const manager = createManager()
+  assert.equal(manager.config.tool_choice, 'auto', 'tool_choice 默认值应为 auto')
+})
+
+await runTest('tool_choice: required 应强制工具调用', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.config.tool_choice = 'required'
+  manager.messages.push({ role: 'user', content: '北京今天天气怎么样？' })
+
+  let toolStarted = false
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_start') toolStarted = true
+  }
+
+  await manager.start()
+  assert.ok(toolStarted, 'tool_choice 为 required 时必须触发工具调用')
+})
+
+await runTest('tool_choice: auto 应由模型自主决定', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.config.tool_choice = 'auto'
+  manager.messages.push({ role: 'user', content: '调用 get_weather 工具查询北京天气' })
+
+  let toolStarted = false
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_start') toolStarted = true
+  }
+
+  await manager.start()
+  assert.ok(toolStarted, 'tool_choice 为 auto 时模型应自主决定调用工具')
+})
+
+await runTest('tool_choice 为工具名应强制调用指定工具', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.config.tool_choice = 'get_weather'
+  manager.messages.push({ role: 'user', content: '北京今天天气怎么样' })
+
+  let toolName = ''
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_start') toolName = e.toolCall.function.name
+  }
+
+  await manager.start()
+  assert.equal(toolName, 'get_weather', 'tool_choice 为工具名时应强制调用指定工具')
+})
+
+await runTest('tool_choice 为工具名时模型调用其他工具应报错', async () => {
+  const client = createMockClient([
+    toolCallChunk('calculate', '{"expression":"1+1"}'),
+    usageChunk(10),
+  ])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.config.tool_choice = 'get_weather'
+  manager.messages.push({ role: 'user', content: '计算 1+1' })
+
+  let toolStarted = false
+  let agentError: any
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_start') toolStarted = true
+    if (e.type === 'agent_error') agentError = e.error
+  }
+
+  await manager.start()
+  assert.ok(!toolStarted, '不应执行非指定工具')
+  assert.ok(agentError, '模型调用非指定工具时应触发 agent_error')
+  assert.equal(agentError.code, 400, '应以 400 报错')
+})
+
+await runTest('tool_choice: none 时模型违规返回工具调用应报错', async () => {
+  const client = createMockClient([toolCallChunk('get_weather', '{"city":"北京"}'), usageChunk(10)])
+  const manager = createManager(client)
+  manager.updateTools(tools)
+  manager.config.tool_choice = 'none'
+  manager.messages.push({ role: 'user', content: '查询北京天气' })
+
+  let toolStarted = false
+  let agentError: any
+  manager.onEvent = (e) => {
+    if (e.type === 'tool_start') toolStarted = true
+    if (e.type === 'agent_error') agentError = e.error
+  }
+
+  await manager.start()
+  assert.ok(!toolStarted, 'tool_choice 为 none 时不应触发工具调用')
+  assert.ok(agentError, '模型违规返回工具调用时应触发 agent_error')
+  assert.equal(agentError.code, 400, '应以 400 报错')
+})

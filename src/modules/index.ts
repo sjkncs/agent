@@ -1,1 +1,193 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIHJlYWN0aXZlLCByZWYsIHNoYWxsb3dSZWYgfSBmcm9tICdAdnVlL3JlYWN0aXZpdHknCmltcG9ydCB0eXBlIE9wZW5BSSBmcm9tICdvcGVuYWknCgppbXBvcnQgdHlwZSB7IE1lc3NhZ2UgfSBmcm9tICdAL3R5cGVzL2luZGV4LnRzJwppbXBvcnQgeyBhZGRBc3Npc3RhbnQgfSBmcm9tICcuL3V0aWxzL2Fzc2lzdGFudC50cycKaW1wb3J0IHsgY29tcGxldGVUb29sQ2FsbHMgfSBmcm9tICcuL3V0aWxzL3Rvb2wudHMnCgppbXBvcnQgeyBzdHJlYW1PdXQsIHR5cGUgU3RyZWFtQ29uZmlnIH0gZnJvbSAnLi9tb2R1bGVzL3N0cmVhbS50cycKaW1wb3J0IHsgZ2VuZXJhdGVUb29scywgdHlwZSBUb29sLCB0eXBlIFRvb2xEZWZpbml0aW9uIH0gZnJvbSAnLi9tb2R1bGVzL3Rvb2wudHMnCgp0eXBlIENvbmZpZyA9IHsKICBtb2RlbDogc3RyaW5nCiAgdG9vbF9jaG9pY2U6ICdhdXRvJyB8ICdub25lJyB8ICdyZXF1aXJlZCcgfCBzdHJpbmcKICBba2V5OiBzdHJpbmddOiBhbnkKfQpleHBvcnQgdHlwZSBBZ2VudE1hbmFnZXIgPSB7CiAgLyoqIOaooeWei+mFjee9riAqLwogIGNvbmZpZzogQ29uZmlnCiAgLyoqIOa2iOaBr+aVsOe7hCAqLwogIG1lc3NhZ2VzOiBNZXNzYWdlW10KICAvKiog5pyA5aSn6L+t5Luj5qyh5pWwICovCiAgbWF4SXRlcmF0aW9uOiBudW1iZXIKICAvKiog546v5aKD5Y+C5pWw5a+56LGh77yM6LWL5YC857uZ5bel5YW35Ye95pWw55qE56ys5LqM5Liq5Y+C5pWwICovCiAgZW52aXJvbm1lbnQ6IFJlY29yZDxzdHJpbmcsIGFueT4KICAvKiogdG9rZW4g5oC76YePICovCiAgcmVhZG9ubHkgdXNhZ2U6IG51bWJlcgogIC8qKiDkuovku7blm57osIMgKi8KICBvbkV2ZW50OiAoKGV2ZW50OiBFdmVudCkgPT4gdm9pZCkgfCB1bmRlZmluZWQKICAvKiog5pu05paw5bel5YW3ICovCiAgcmVhZG9ubHkgdXBkYXRlVG9vbHM6ICh0b29sczogVG9vbFtdKSA9PiB2b2lkCiAgLyoqIOW8gOWniyAqLwogIHJlYWRvbmx5IHN0YXJ0OiAoKSA9PiBQcm9taXNlPHZvaWQ+CiAgLyoqIOe7k+adnyAqLwogIHJlYWRvbmx5IHN0b3A6ICgpID0+IHZvaWQKfQpleHBvcnQgdHlwZSB7IFRvb2wgfQpleHBvcnQgdHlwZSBFdmVudCA9CiAgfCB7IHR5cGU6ICdhZ2VudF9zdGFydCcgfQogIHwgeyB0eXBlOiAndHVybl9zdGFydCc7IHR1cm5Db3VudDogbnVtYmVyIH0KICB8IHsKICAgICAgdHlwZTogJ21lc3NhZ2VfdXBkYXRlJwogICAgICB0ZXh0OiB7IGNvbnRlbnQ/OiBzdHJpbmc7IHJlYXNvbmluZ19jb250ZW50Pzogc3RyaW5nIH0KICAgICAgdHVybkNvdW50OiBudW1iZXIKICAgIH0KICB8IHsKICAgICAgdHlwZTogJ3Rvb2xfc3RhcnQnCiAgICAgIHRvb2xDYWxsOiBPcGVuQUkuQ2hhdC5Db21wbGV0aW9ucy5DaGF0Q29tcGxldGlvbk1lc3NhZ2VGdW5jdGlvblRvb2xDYWxsCiAgICAgIHR1cm5Db3VudDogbnVtYmVyCiAgICB9CiAgfCB7CiAgICAgIHR5cGU6ICd0b29sX2VuZCcKICAgICAgdG9vbENhbGw6IE9wZW5BSS5DaGF0LkNvbXBsZXRpb25zLkNoYXRDb21wbGV0aW9uTWVzc2FnZUZ1bmN0aW9uVG9vbENhbGwKICAgICAgc3VjY2VzczogYm9vbGVhbgogICAgICB0dXJuQ291bnQ6IG51bWJlcgogICAgfQogIHwgeyB0eXBlOiAndHVybl9lbmQnOyB0dXJuQ291bnQ6IG51bWJlciB9CiAgfCB7IHR5cGU6ICdhZ2VudF9lbmQnOyB0dXJuQ291bnQ6IG51bWJlciB9CiAgfCB7IHR5cGU6ICdhZ2VudF9lcnJvcic7IGVycm9yOiBhbnk7IHR1cm5Db3VudDogbnVtYmVyIH0KCmV4cG9ydCBjb25zdCBjcmVhdGVBZ2VudE1hbmFnZXIgPSAoY2xpZW50OiBPcGVuQUkpOiBBZ2VudE1hbmFnZXIgPT4gewogIGNvbnN0IGNvbmZpZyA9IHJlZjxDb25maWc+KHsgbW9kZWw6ICcnLCB0b29sX2Nob2ljZTogJ2F1dG8nIH0pCiAgY29uc3QgdHJhbnNmb3JtZWRDb25maWcgPSBjb21wdXRlZCgoKSA9PiB7CiAgICBpZiAoWydhdXRvJywgJ25vbmUnLCAncmVxdWlyZWQnXS5pbmNsdWRlcyhjb25maWcudmFsdWUudG9vbF9jaG9pY2UpKSB7CiAgICAgIHJldHVybiBjb25maWcudmFsdWUKICAgIH0gZWxzZSB7CiAgICAgIHJldHVybiB7CiAgICAgICAgLi4uY29uZmlnLnZhbHVlLAogICAgICAgIHRvb2xfY2hvaWNlOiB7CiAgICAgICAgICB0eXBlOiAnZnVuY3Rpb24nLAogICAgICAgICAgZnVuY3Rpb246IHsgbmFtZTogY29uZmlnLnZhbHVlLnRvb2xfY2hvaWNlIH0sCiAgICAgICAgfSwKICAgICAgfQogICAgfQogIH0pCiAgY29uc3QgbWVzc2FnZXMgPSByZWY8TWVzc2FnZVtdPihbXSkKCiAgLy8g5bel5YW3CiAgY29uc3QgdG9vbERlZmluaXRpb25zID0gcmVmPFRvb2xEZWZpbml0aW9uW10+KFtdKQogIGNvbnN0IHRvb2xFeGVjdXRvcnMgPSByZWY8CiAgICBSZWNvcmQ8c3RyaW5nLCAoYXJnczogUmVjb3JkPHN0cmluZywgYW55PiwgZW52OiBSZWNvcmQ8c3RyaW5nLCBhbnk+KSA9PiBhbnk+CiAgPih7fSkKICBjb25zdCB1cGRhdGVUb29scyA9ICh0b29sczogVG9vbFtdKSA9PiB7CiAgICBjb25zdCBuZXdUb29scyA9IGdlbmVyYXRlVG9vbHModG9vbHMpCiAgICB0b29sRGVmaW5pdGlvbnMudmFsdWUgPSBuZXdUb29scy50b29sRGVmaW5pdGlvbnMKICAgIHRvb2xFeGVjdXRvcnMudmFsdWUgPSBuZXdUb29scy50b29sRXhlY3V0b3JzCiAgfQoKICBjb25zdCBtYXhJdGVyYXRpb24gPSByZWY8bnVtYmVyPigxMCkKICBjb25zdCBlbnZpcm9ubWVudCA9IHNoYWxsb3dSZWY8UmVjb3JkPHN0cmluZywgYW55Pj4oe30pCiAgY29uc3Qgb25FdmVudCA9IHJlZjwoZXZlbnQ6IEV2ZW50KSA9PiB2b2lkPigpCiAgY29uc3QgaXNSdW5uaW5nID0gcmVmPGJvb2xlYW4+KGZhbHNlKQogIGNvbnN0IHVzYWdlID0gcmVmPG51bWJlcj4oMCkKCiAgY29uc3Qgc3RhcnQgPSBhc3luYyAoKSA9PiB7CiAgICBjb21wbGV0ZVRvb2xDYWxscyhtZXNzYWdlcy52YWx1ZSkKICAgIGlzUnVubmluZy52YWx1ZSA9IHRydWUKICAgIG9uRXZlbnQudmFsdWU/Lih7IHR5cGU6ICdhZ2VudF9zdGFydCcgfSkKICAgIGxldCB0dXJuQ291bnQ6IG51bWJlciA9IDEKICAgIHRyeSB7CiAgICAgIGZvciAobGV0IGkgPSAxOyBpIDw9IG1heEl0ZXJhdGlvbi52YWx1ZTsgaSsrKSB7CiAgICAgICAgaWYgKCFpc1J1bm5pbmcudmFsdWUpIHJldHVybgogICAgICAgIHR1cm5Db3VudCA9IGkKICAgICAgICBvbkV2ZW50LnZhbHVlPy4oeyB0eXBlOiAndHVybl9zdGFydCcsIHR1cm5Db3VudCB9KQogICAgICAgIGNvbnN0IGZpbHRlcmVkTWVzc2FnZXMgPSBtZXNzYWdlcy52YWx1ZS5maWx0ZXIoKG1lc3NhZ2UpID0+CiAgICAgICAgICBbJ3N5c3RlbScsICd1c2VyJywgJ2Fzc2lzdGFudCcsICd0b29sJ10uaW5jbHVkZXMobWVzc2FnZS5yb2xlIGFzIHN0cmluZyksCiAgICAgICAgKQogICAgICAgIGNvbnN0IGFjY3VtdWxhdGVkID0gYXdhaXQgc3RyZWFtT3V0KAogICAgICAgICAgY2xpZW50LAogICAgICAgICAgewogICAgICAgICAgICAuLi50cmFuc2Zvcm1lZENvbmZpZy52YWx1ZSwKICAgICAgICAgICAgbWVzc2FnZXM6IGZpbHRlcmVkTWVzc2FnZXMsCiAgICAgICAgICAgIHRvb2xzOiB0b29sRGVmaW5pdGlvbnMudmFsdWUsCiAgICAgICAgICB9IGFzIFN0cmVhbUNvbmZpZywKICAgICAgICAgICh0ZXh0OiB7IGNvbnRlbnQ/OiBzdHJpbmcgfSB8IHsgcmVhc29uaW5nX2NvbnRlbnQ/OiBzdHJpbmcgfSkgPT4gewogICAgICAgICAgICBvbkV2ZW50LnZhbHVlPy4oeyB0eXBlOiAnbWVzc2FnZV91cGRhdGUnLCB0ZXh0LCB0dXJuQ291bnQgfSkKICAgICAgICAgIH0sCiAgICAgICAgICAoKSA9PiBpc1J1bm5pbmcudmFsdWUsCiAgICAgICAgKQogICAgICAgIGNvbnN0IHsKICAgICAgICAgIHVzYWdlOiB7IHRvdGFsX3Rva2VucyB9LAogICAgICAgICAgLi4ubWVzc2FnZQogICAgICAgIH0gPSBhY2N1bXVsYXRlZAogICAgICAgIHVzYWdlLnZhbHVlID0gdG90YWxfdG9rZW5zCiAgICAgICAgYWRkQXNzaXN0YW50KG1lc3NhZ2VzLnZhbHVlLCBtZXNzYWdlKQoKICAgICAgICBpZiAoIWFjY3VtdWxhdGVkLnRvb2xfY2FsbHMpIHJldHVybgogICAgICAgIGlmICghaXNSdW5uaW5nLnZhbHVlKSByZXR1cm4KICAgICAgICBhd2FpdCBQcm9taXNlLmFsbCgKICAgICAgICAgIGFjY3VtdWxhdGVkLnRvb2xfY2FsbHMubWFwKGFzeW5jICh0b29sQ2FsbCkgPT4gewogICAgICAgICAgICBjb25zdCBleGVjdXRvciA9IHRvb2xFeGVjdXRvcnMudmFsdWVbdG9vbENhbGwuZnVuY3Rpb24ubmFtZV0KICAgICAgICAgICAgaWYgKCFleGVjdXRvcikgewogICAgICAgICAgICAgIG1lc3NhZ2VzLnZhbHVlLnB1c2goewogICAgICAgICAgICAgICAgcm9sZTogJ3Rvb2wnLAogICAgICAgICAgICAgICAgbmFtZTogdG9vbENhbGwuZnVuY3Rpb24ubmFtZSwKICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICflt6XlhbfkuI3lrZjlnKgnLAogICAgICAgICAgICAgICAgdG9vbF9jYWxsX2lkOiB0b29sQ2FsbC5pZCwKICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIG9uRXZlbnQudmFsdWU/Lih7IHR5cGU6ICd0b29sX3N0YXJ0JywgdG9vbENhbGwsIHR1cm5Db3VudCB9KQogICAgICAgICAgICBsZXQgcmVzdWx0OiBhbnkKICAgICAgICAgICAgbGV0IHN1Y2Nlc3M6IGJvb2xlYW4KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICBjb25zdCBhcmdzID0gSlNPTi5wYXJzZSh0b29sQ2FsbC5mdW5jdGlvbi5hcmd1bWVudHMpIGFzIFJlY29yZDxzdHJpbmcsIGFueT4KICAgICAgICAgICAgICByZXN1bHQgPSBhd2FpdCBleGVjdXRvcihhcmdzLCBlbnZpcm9ubWVudC52YWx1ZSkKICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZQogICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgICAgICAgICAgcmVzdWx0ID0gZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBlcnJvcgogICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlc3VsdCA9IHR5cGVvZiByZXN1bHQgPT09ICdzdHJpbmcnID8gcmVzdWx0IDogSlNPTi5zdHJpbmdpZnkocmVzdWx0KQogICAgICAgICAgICBtZXNzYWdlcy52YWx1ZS5wdXNoKHsKICAgICAgICAgICAgICByb2xlOiAndG9vbCcsCiAgICAgICAgICAgICAgbmFtZTogdG9vbENhbGwuZnVuY3Rpb24ubmFtZSwKICAgICAgICAgICAgICBjb250ZW50OiByZXN1bHQsCiAgICAgICAgICAgICAgdG9vbF9jYWxsX2lkOiB0b29sQ2FsbC5pZCwKICAgICAgICAgICAgfSkKICAgICAgICAgICAgb25FdmVudC52YWx1ZT8uKHsgdHlwZTogJ3Rvb2xfZW5kJywgdG9vbENhbGwsIHN1Y2Nlc3MsIHR1cm5Db3VudCB9KQogICAgICAgICAgfSksCiAgICAgICAgKQogICAgICAgIG9uRXZlbnQudmFsdWU/Lih7IHR5cGU6ICd0dXJuX2VuZCcsIHR1cm5Db3VudCB9KQogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIGlmIChlcnJvci5hY2N1bXVsYXRlZCkgewogICAgICAgIGNvbnN0IHsKICAgICAgICAgIHVzYWdlOiB7IHRvdGFsX3Rva2VucyB9LAogICAgICAgICAgLi4ubWVzc2FnZQogICAgICAgIH0gPSBlcnJvci5hY2N1bXVsYXRlZAogICAgICAgIHVzYWdlLnZhbHVlID0gdG90YWxfdG9rZW5zCiAgICAgICAgYWRkQXNzaXN0YW50KG1lc3NhZ2VzLnZhbHVlLCBtZXNzYWdlKQogICAgICB9CiAgICAgIGlmIChlcnJvci5jb2RlID09PSAyMDApIHJldHVybgogICAgICBvbkV2ZW50LnZhbHVlPy4oeyB0eXBlOiAnYWdlbnRfZXJyb3InLCBlcnJvciwgdHVybkNvdW50IH0pCiAgICB9IGZpbmFsbHkgewogICAgICBvbkV2ZW50LnZhbHVlPy4oeyB0eXBlOiAnYWdlbnRfZW5kJywgdHVybkNvdW50IH0pCiAgICB9CiAgfQogIGNvbnN0IHN0b3AgPSAoKSA9PiB7CiAgICBpc1J1bm5pbmcudmFsdWUgPSBmYWxzZQogIH0KCiAgcmV0dXJuIHJlYWN0aXZlKHsKICAgIGNvbmZpZywKICAgIG1lc3NhZ2VzLAogICAgbWF4SXRlcmF0aW9uLAogICAgZW52aXJvbm1lbnQsCiAgICBvbkV2ZW50LAogICAgdXNhZ2UsCiAgICB1cGRhdGVUb29scywKICAgIHN0YXJ0LAogICAgc3RvcCwKICB9KQp9
+import { computed, reactive, ref, shallowRef } from '@vue/reactivity'
+import type OpenAI from 'openai'
+
+import type { Message } from '@/types/index.ts'
+import { addAssistant } from './utils/assistant.ts'
+import { completeToolCalls } from './utils/tool.ts'
+
+import { streamOut, type StreamConfig } from './modules/stream.ts'
+import { generateTools, type Tool, type ToolDefinition } from './modules/tool.ts'
+
+type Config = {
+  model: string
+  tool_choice: 'auto' | 'none' | 'required' | string
+  [key: string]: any
+}
+export type AgentManager = {
+  /** 模型配置 */
+  config: Config
+  /** 消息数组 */
+  messages: Message[]
+  /** 最大迭代次数 */
+  maxIteration: number
+  /** 环境参数对象，赋值给工具函数的第二个参数 */
+  environment: Record<string, any>
+  /** token 总量 */
+  readonly usage: number
+  /** 事件回调 */
+  onEvent: ((event: Event) => void) | undefined
+  /** 更新工具 */
+  readonly updateTools: (tools: Tool[]) => void
+  /** 开始 */
+  readonly start: () => Promise<void>
+  /** 结束 */
+  readonly stop: () => void
+}
+export type { Tool }
+export type Event =
+  | { type: 'agent_start' }
+  | { type: 'turn_start'; turnCount: number }
+  | {
+      type: 'message_update'
+      text: { content?: string; reasoning_content?: string }
+      turnCount: number
+    }
+  | {
+      type: 'tool_start'
+      toolCall: OpenAI.Chat.Completions.ChatCompletionMessageFunctionToolCall
+      turnCount: number
+    }
+  | {
+      type: 'tool_end'
+      toolCall: OpenAI.Chat.Completions.ChatCompletionMessageFunctionToolCall
+      success: boolean
+      turnCount: number
+    }
+  | { type: 'turn_end'; turnCount: number }
+  | { type: 'agent_end'; turnCount: number }
+  | { type: 'agent_error'; error: any; turnCount: number }
+
+export const createAgentManager = (client: OpenAI): AgentManager => {
+  const config = ref<Config>({ model: '', tool_choice: 'auto' })
+  const transformedConfig = computed(() => {
+    if (['auto', 'none', 'required'].includes(config.value.tool_choice)) {
+      return config.value
+    } else {
+      return {
+        ...config.value,
+        tool_choice: {
+          type: 'function',
+          function: { name: config.value.tool_choice },
+        },
+      }
+    }
+  })
+  const messages = ref<Message[]>([])
+
+  // 工具
+  const toolDefinitions = ref<ToolDefinition[]>([])
+  const toolExecutors = ref<
+    Record<string, (args: Record<string, any>, env: Record<string, any>) => any>
+  >({})
+  const updateTools = (tools: Tool[]) => {
+    const newTools = generateTools(tools)
+    toolDefinitions.value = newTools.toolDefinitions
+    toolExecutors.value = newTools.toolExecutors
+  }
+
+  const maxIteration = ref<number>(10)
+  const environment = shallowRef<Record<string, any>>({})
+  const onEvent = ref<(event: Event) => void>()
+  const isRunning = ref<boolean>(false)
+  const usage = ref<number>(0)
+
+  const start = async () => {
+    completeToolCalls(messages.value)
+    isRunning.value = true
+    onEvent.value?.({ type: 'agent_start' })
+    let turnCount: number = 1
+    try {
+      for (let i = 1; i <= maxIteration.value; i++) {
+        if (!isRunning.value) return
+        turnCount = i
+        onEvent.value?.({ type: 'turn_start', turnCount })
+        const filteredMessages = messages.value.filter((message) =>
+          ['system', 'user', 'assistant', 'tool'].includes(message.role as string),
+        )
+        const accumulated = await streamOut(
+          client,
+          {
+            ...transformedConfig.value,
+            messages: filteredMessages,
+            tools: toolDefinitions.value,
+          } as StreamConfig,
+          (text: { content?: string } | { reasoning_content?: string }) => {
+            onEvent.value?.({ type: 'message_update', text, turnCount })
+          },
+          () => isRunning.value,
+        )
+        const {
+          usage: { total_tokens },
+          ...message
+        } = accumulated
+        usage.value = total_tokens
+        addAssistant(messages.value, message)
+
+        if (!accumulated.tool_calls) return
+        if (!isRunning.value) return
+        await Promise.all(
+          accumulated.tool_calls.map(async (toolCall) => {
+            const executor = toolExecutors.value[toolCall.function.name]
+            if (!executor) {
+              messages.value.push({
+                role: 'tool',
+                name: toolCall.function.name,
+                content: '工具不存在',
+                tool_call_id: toolCall.id,
+              })
+              return
+            }
+            onEvent.value?.({ type: 'tool_start', toolCall, turnCount })
+            let result: any
+            let success: boolean
+            try {
+              const args = JSON.parse(toolCall.function.arguments) as Record<string, any>
+              result = await executor(args, environment.value)
+              success = true
+            } catch (error: any) {
+              result = error instanceof Error ? error.message : error
+              success = false
+            }
+            result = typeof result === 'string' ? result : JSON.stringify(result)
+            messages.value.push({
+              role: 'tool',
+              name: toolCall.function.name,
+              content: result,
+              tool_call_id: toolCall.id,
+            })
+            onEvent.value?.({ type: 'tool_end', toolCall, success, turnCount })
+          }),
+        )
+        onEvent.value?.({ type: 'turn_end', turnCount })
+      }
+    } catch (error: any) {
+      if (error.accumulated) {
+        const {
+          usage: { total_tokens },
+          ...message
+        } = error.accumulated
+        usage.value = total_tokens
+        addAssistant(messages.value, message)
+      }
+      if (error.code === 200) return
+      onEvent.value?.({ type: 'agent_error', error, turnCount })
+    } finally {
+      onEvent.value?.({ type: 'agent_end', turnCount })
+    }
+  }
+  const stop = () => {
+    isRunning.value = false
+  }
+
+  return reactive({
+    config,
+    messages,
+    maxIteration,
+    environment,
+    onEvent,
+    usage,
+    updateTools,
+    start,
+    stop,
+  })
+}

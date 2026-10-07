@@ -1,1 +1,108 @@
-aW1wb3J0IGFzc2VydCBmcm9tICdub2RlOmFzc2VydC9zdHJpY3QnCgppbXBvcnQgeyBydW5UZXN0IH0gZnJvbSAnLi91dGlscy9ydW4udHMnCmltcG9ydCB7IGNyZWF0ZU1hbmFnZXIgfSBmcm9tICcuL3NlcnZpY2VzL21hbmFnZXIudHMnCmltcG9ydCB7IHRvb2xzIH0gZnJvbSAnLi9zZXJ2aWNlcy90b29sLnRzJwoKYXdhaXQgcnVuVGVzdCgn566A5Y2V5a+56K+dIHR1cm5Db3VudCDlupTkuLogMScsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcigpCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiAn5Zue5aSN5LiA5Liq5a2X77ya5aW9JyB9KQoKICBjb25zdCBlbmRFdmVudHM6IHsgdHVybkNvdW50OiBudW1iZXIgfVtdID0gW10KICBtYW5hZ2VyLm9uRXZlbnQgPSAoZSkgPT4gewogICAgaWYgKGUudHlwZSA9PT0gJ2FnZW50X2VuZCcpIGVuZEV2ZW50cy5wdXNoKHsgdHVybkNvdW50OiBlLnR1cm5Db3VudCB9KQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0LmVxdWFsKGVuZEV2ZW50cy5sZW5ndGgsIDEsICfpooTmnJ/mgbDlpb3kuIDmrKEgYWdlbnRfZW5kJykKICBhc3NlcnQuZXF1YWwoZW5kRXZlbnRzWzBdLnR1cm5Db3VudCwgMSwgJ+eugOWNleWvueivnSB0dXJuQ291bnQg5bqU5Li6IDEnKQp9KQoKYXdhaXQgcnVuVGVzdCgndHVybl9zdGFydCDkuI4gYWdlbnRfZW5kIHR1cm5Db3VudCDlupTkuIDoh7QnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIubWVzc2FnZXMucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ+WbnuWkjeS4gOS4quWtl++8muWlvScgfSkKCiAgY29uc3Qgc3RhcnRUdXJuczogbnVtYmVyW10gPSBbXQogIGxldCBlbmRUdXJuOiBudW1iZXIgfCBudWxsID0gbnVsbAogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAndHVybl9zdGFydCcpIHN0YXJ0VHVybnMucHVzaChlLnR1cm5Db3VudCkKICAgIGlmIChlLnR5cGUgPT09ICdhZ2VudF9lbmQnKSBlbmRUdXJuID0gZS50dXJuQ291bnQKICB9CgogIGF3YWl0IG1hbmFnZXIuc3RhcnQoKQogIGFzc2VydC5vayhlbmRUdXJuICE9PSBudWxsLCAn6aKE5pyf5pS25YiwIGFnZW50X2VuZCcpCiAgYXNzZXJ0Lm9rKAogICAgc3RhcnRUdXJucy5zb21lKCh0KSA9PiB0ID09PSBlbmRUdXJuKSwKICAgIGB0dXJuX3N0YXJ0IOW6lOWMheWQq+S4jiBhZ2VudF9lbmQg55u45ZCM55qEIHR1cm5Db3VudCAke2VuZFR1cm59YCwKICApCn0pCgphd2FpdCBydW5UZXN0KCflt6XlhbfosIPnlKjlkI7nu5PmnZ8gdHVybkNvdW50IOW6lOS4uuacieaViOWAvCcsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcigpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goewogICAgcm9sZTogJ3VzZXInLAogICAgY29udGVudDogJ+iwg+eUqCBnZXRfd2VhdGhlciDlt6Xlhbfmn6Xor6LljJfkuqzlpKnmsJTvvIznhLblkI7nlKjkuIDkuKrlrZfmgLvnu5MnLAogIH0pCgogIGxldCBlbmRUdXJuOiBudW1iZXIgfCBudWxsID0gbnVsbAogIGxldCB0b29sQ291bnQgPSAwCiAgY29uc3Qgc3RhcnRUdXJuczogbnVtYmVyW10gPSBbXQogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAndHVybl9zdGFydCcpIHN0YXJ0VHVybnMucHVzaChlLnR1cm5Db3VudCkKICAgIGlmIChlLnR5cGUgPT09ICd0b29sX2VuZCcpIHRvb2xDb3VudCsrCiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZW5kJykgZW5kVHVybiA9IGUudHVybkNvdW50CiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soZW5kVHVybiAhPT0gbnVsbCwgJ+mihOacn+aUtuWIsCBhZ2VudF9lbmQnKQogIGFzc2VydC5vayh0b29sQ291bnQgPj0gMSwgJ+mihOacn+iHs+Wwkeiwg+eUqOS4gOasoeW3peWFtycpCiAgYXNzZXJ0Lm9rKGVuZFR1cm4hID49IDEsIGB0dXJuQ291bnQg5bqUID49IDHvvIzlrp7pmYUgJHtlbmRUdXJufWApCiAgYXNzZXJ0Lm9rKHN0YXJ0VHVybnMuaW5jbHVkZXMoZW5kVHVybiEpLCBgdHVybl9zdGFydCDlupTljIXlkKsgYWdlbnRfZW5kIOeahCB0dXJuQ291bnQgJHtlbmRUdXJufWApCn0pCgphd2FpdCBydW5UZXN0KCflpJrova7lt6XlhbfosIPnlKggdHVybkNvdW50IOW6lOmAkuWinicsIGFzeW5jICgpID0+IHsKICBjb25zdCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcigpCiAgbWFuYWdlci51cGRhdGVUb29scyh0b29scykKICBtYW5hZ2VyLm1heEl0ZXJhdGlvbiA9IDUKICBtYW5hZ2VyLm1lc3NhZ2VzLnB1c2goewogICAgcm9sZTogJ3VzZXInLAogICAgY29udGVudDoKICAgICAgJ+avj+asoeWPquiwg+eUqOS4gOasoSBnZXRfd2VhdGhlciDlt6Xlhbfmn6Xor6LkuI3lkIzln47luILvvIjljJfkuqzjgIHkuIrmtbfjgIHlub/lt57vvInvvIzkuI3opoHkuIDmrKHmgKfosIPnlKjlpJrkuKrlt6XlhbcnLAogIH0pCgogIGNvbnN0IHN0YXJ0VHVybnM6IG51bWJlcltdID0gW10KICBjb25zdCBlbmRUdXJuczogbnVtYmVyW10gPSBbXQogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAndHVybl9zdGFydCcpIHN0YXJ0VHVybnMucHVzaChlLnR1cm5Db3VudCkKICAgIGlmIChlLnR5cGUgPT09ICdhZ2VudF9lbmQnKSBlbmRUdXJucy5wdXNoKGUudHVybkNvdW50KQogIH0KCiAgYXdhaXQgbWFuYWdlci5zdGFydCgpCiAgYXNzZXJ0Lm9rKGVuZFR1cm5zLmxlbmd0aCA9PT0gMSwgJ+mihOacn+aBsOWlveS4gOasoSBhZ2VudF9lbmQnKQogIGNvbnN0IGxhc3RFbmRUdXJuID0gZW5kVHVybnNbMF0KICBhc3NlcnQub2sobGFzdEVuZFR1cm4gPj0gMSwgYOWkmui9ruiwg+eUqOWQjiB0dXJuQ291bnQg5bqUID49IDHvvIzlrp7pmYUgJHtsYXN0RW5kVHVybn1gKQogIGFzc2VydC5vaygKICAgIHN0YXJ0VHVybnMuaW5jbHVkZXMobGFzdEVuZFR1cm4pLAogICAgYHR1cm5fc3RhcnQg5bqU5YyF5ZCrIGFnZW50X2VuZCDnmoQgdHVybkNvdW50ICR7bGFzdEVuZFR1cm59YCwKICApCn0pCgphd2FpdCBydW5UZXN0KCflvqrnjq/mraPluLjnu5PmnZ/ml7YgdHVybkNvdW50IOW6lOS4uiBtYXhJdGVyYXRpb24nLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoKQogIG1hbmFnZXIudXBkYXRlVG9vbHModG9vbHMpCiAgbWFuYWdlci5tYXhJdGVyYXRpb24gPSAxCiAgbWFuYWdlci5tZXNzYWdlcy5wdXNoKHsKICAgIHJvbGU6ICd1c2VyJywKICAgIGNvbnRlbnQ6ICfosIPnlKggY2FsY3VsYXRlIOW3peWFt+iuoeeulyAxKzHvvIzkuI3opoHlm57lpI3mloflrZcnLAogIH0pCgogIGxldCBlbmRUdXJuOiBudW1iZXIgfCBudWxsID0gbnVsbAogIG1hbmFnZXIub25FdmVudCA9IChlKSA9PiB7CiAgICBpZiAoZS50eXBlID09PSAnYWdlbnRfZW5kJykgZW5kVHVybiA9IGUudHVybkNvdW50CiAgfQoKICBhd2FpdCBtYW5hZ2VyLnN0YXJ0KCkKICBhc3NlcnQub2soZW5kVHVybiAhPT0gbnVsbCwgJ+mihOacn+aUtuWIsCBhZ2VudF9lbmQnKQogIGFzc2VydC5lcXVhbChlbmRUdXJuLCAxLCAnbWF4SXRlcmF0aW9uPTEg5pe25b6q546v6LWw5a6MIHR1cm5Db3VudCDlupTkuLogMScpCn0p
+import assert from 'node:assert/strict'
+
+import { runTest } from './utils/run.ts'
+import { createManager } from './services/manager.ts'
+import { tools } from './services/tool.ts'
+
+await runTest('简单对话 turnCount 应为 1', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  const endEvents: { turnCount: number }[] = []
+  manager.onEvent = (e) => {
+    if (e.type === 'agent_end') endEvents.push({ turnCount: e.turnCount })
+  }
+
+  await manager.start()
+  assert.equal(endEvents.length, 1, '预期恰好一次 agent_end')
+  assert.equal(endEvents[0].turnCount, 1, '简单对话 turnCount 应为 1')
+})
+
+await runTest('turn_start 与 agent_end turnCount 应一致', async () => {
+  const manager = createManager()
+  manager.messages.push({ role: 'user', content: '回复一个字：好' })
+
+  const startTurns: number[] = []
+  let endTurn: number | null = null
+  manager.onEvent = (e) => {
+    if (e.type === 'turn_start') startTurns.push(e.turnCount)
+    if (e.type === 'agent_end') endTurn = e.turnCount
+  }
+
+  await manager.start()
+  assert.ok(endTurn !== null, '预期收到 agent_end')
+  assert.ok(
+    startTurns.some((t) => t === endTurn),
+    `turn_start 应包含与 agent_end 相同的 turnCount ${endTurn}`,
+  )
+})
+
+await runTest('工具调用后结束 turnCount 应为有效值', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.messages.push({
+    role: 'user',
+    content: '调用 get_weather 工具查询北京天气，然后用一个字总结',
+  })
+
+  let endTurn: number | null = null
+  let toolCount = 0
+  const startTurns: number[] = []
+  manager.onEvent = (e) => {
+    if (e.type === 'turn_start') startTurns.push(e.turnCount)
+    if (e.type === 'tool_end') toolCount++
+    if (e.type === 'agent_end') endTurn = e.turnCount
+  }
+
+  await manager.start()
+  assert.ok(endTurn !== null, '预期收到 agent_end')
+  assert.ok(toolCount >= 1, '预期至少调用一次工具')
+  assert.ok(endTurn! >= 1, `turnCount 应 >= 1，实际 ${endTurn}`)
+  assert.ok(startTurns.includes(endTurn!), `turn_start 应包含 agent_end 的 turnCount ${endTurn}`)
+})
+
+await runTest('多轮工具调用 turnCount 应递增', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.maxIteration = 5
+  manager.messages.push({
+    role: 'user',
+    content:
+      '每次只调用一次 get_weather 工具查询不同城市（北京、上海、广州），不要一次性调用多个工具',
+  })
+
+  const startTurns: number[] = []
+  const endTurns: number[] = []
+  manager.onEvent = (e) => {
+    if (e.type === 'turn_start') startTurns.push(e.turnCount)
+    if (e.type === 'agent_end') endTurns.push(e.turnCount)
+  }
+
+  await manager.start()
+  assert.ok(endTurns.length === 1, '预期恰好一次 agent_end')
+  const lastEndTurn = endTurns[0]
+  assert.ok(lastEndTurn >= 1, `多轮调用后 turnCount 应 >= 1，实际 ${lastEndTurn}`)
+  assert.ok(
+    startTurns.includes(lastEndTurn),
+    `turn_start 应包含 agent_end 的 turnCount ${lastEndTurn}`,
+  )
+})
+
+await runTest('循环正常结束时 turnCount 应为 maxIteration', async () => {
+  const manager = createManager()
+  manager.updateTools(tools)
+  manager.maxIteration = 1
+  manager.messages.push({
+    role: 'user',
+    content: '调用 calculate 工具计算 1+1，不要回复文字',
+  })
+
+  let endTurn: number | null = null
+  manager.onEvent = (e) => {
+    if (e.type === 'agent_end') endTurn = e.turnCount
+  }
+
+  await manager.start()
+  assert.ok(endTurn !== null, '预期收到 agent_end')
+  assert.equal(endTurn, 1, 'maxIteration=1 时循环走完 turnCount 应为 1')
+})

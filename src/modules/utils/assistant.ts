@@ -1,1 +1,23 @@
-aW1wb3J0IHR5cGUgeyBNZXNzYWdlIH0gZnJvbSAnQC90eXBlcy9pbmRleC50cycKCmV4cG9ydCBjb25zdCBmaW5kUHJlZmlsbEluZGV4ID0gKG1lc3NhZ2VzOiBNZXNzYWdlW10pID0+IHsKICBmb3IgKGxldCBpID0gbWVzc2FnZXMubGVuZ3RoIC0gMTsgaSA+PSAwOyBpLS0pIHsKICAgIGNvbnN0IG1lc3NhZ2UgPSBtZXNzYWdlc1tpXQogICAgaWYgKG1lc3NhZ2Uucm9sZSA9PT0gJ2Fzc2lzdGFudCcpIHsKICAgICAgcmV0dXJuIGkKICAgIH0KICAgIGlmIChtZXNzYWdlLnJvbGUgPT09ICd1c2VyJyB8fCBtZXNzYWdlLnJvbGUgPT09ICd0b29sJykgewogICAgICByZXR1cm4gLTEKICAgIH0KICB9CiAgcmV0dXJuIC0xCn0KCmV4cG9ydCBjb25zdCBhZGRBc3Npc3RhbnQgPSAobWVzc2FnZXM6IE1lc3NhZ2VbXSwgbWVzc2FnZTogTWVzc2FnZSkgPT4gewogIGNvbnN0IGluZGV4ID0gZmluZFByZWZpbGxJbmRleChtZXNzYWdlcykKICBpZiAoaW5kZXggPT09IC0xKSB7CiAgICBtZXNzYWdlcy5wdXNoKG1lc3NhZ2UpCiAgfSBlbHNlIHsKICAgIG1lc3NhZ2VzW2luZGV4XSA9IG1lc3NhZ2UKICB9Cn0=
+import type { Message } from '@/types/index.ts'
+
+export const findPrefillIndex = (messages: Message[]) => {
+  for (let i = messages.length - 1; i >= 0; i--) {
+    const message = messages[i]
+    if (message.role === 'assistant') {
+      return i
+    }
+    if (message.role === 'user' || message.role === 'tool') {
+      return -1
+    }
+  }
+  return -1
+}
+
+export const addAssistant = (messages: Message[], message: Message) => {
+  const index = findPrefillIndex(messages)
+  if (index === -1) {
+    messages.push(message)
+  } else {
+    messages[index] = message
+  }
+}
